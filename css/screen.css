@@ -3,6 +3,31 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 8, ../_sass/screen.scss */
-body {
-  background: yellow;
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+/* line 9, ../_sass/screen.scss */
+h2 {
+  font-size: 24px;
+  line-height: 27px;
+}
+
+/* line 10, ../_sass/screen.scss */
+h3 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* line 11, ../_sass/screen.scss */
+h4 {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/* line 12, ../_sass/screen.scss */
+h5 {
+  font-size: 16px;
+  line-height: 19px;
 }
