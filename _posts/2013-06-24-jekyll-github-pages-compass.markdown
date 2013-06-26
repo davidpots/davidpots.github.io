@@ -38,10 +38,10 @@ Then, you'll want to create a Compass instance within your existing Jekyll app's
 
 Next, a few tweaks you'll need to make to the default Compass files and folders that were just created. Perform these steps:
 
-  1. Rename the `sass` folder to be `_sass`
-  2. Delete the `stylesheets` folder that Compass created (for now we'll use Jekyll's default `css` folder for our CSS)
-  3. Move your Compass `config.rb` file into the `_sass` folder
-  4. Create a folder `_plugins` in your root Jekyll directory, and paste the contents of [this gist](https://gist.github.com/davidpots/5853188) into a new file called `generator_scss.rb`. Make sure this file is created inside your new `plugins` directory.
+1. Rename the `sass` folder to be `_sass`
+2. Delete the `stylesheets` folder that Compass created (for now we'll use Jekyll's default `css` folder for our CSS)
+3. Move your Compass `config.rb` file into the `_sass` folder
+4. Create a folder `_plugins` in your root Jekyll directory, and paste the contents of [this gist](https://gist.github.com/davidpots/5853188) into a new file called `generator_scss.rb`. Make sure this file is created inside your new `plugins` directory.
 
 Now we need to open up the Compass `config.rb` document and make some tweaks. You'll want to be sure everything is wired up correctly (i.e., so Compass knows where to find everything within the Jekyll ecosystem). Make your `_sass/config.rb` file look like this:
   
@@ -71,7 +71,7 @@ And if you refresh your page and view source (or make an obvious change in `scre
 
 Next, I'll show how to take your Jekyll site and have it hosted on Github Pages, which lets anyone visit it from their browser. For free. This is handy for many reasons (hosting smaller sites, prototype testing, testing on mobile, etc).
 
-### Setup a Git Repo
+#### Setup a Git Repo
 
 First, log in to github.com and create a new repo for your project. I'm going to use "pages3" to match my Jekyll app. With terminal pointed to your Jekyll project folder, setup git:
   
@@ -83,15 +83,15 @@ First, log in to github.com and create a new repo for your project. I'm going to
 
 Now, just like normal, your folder of content is saved to a repo on github. This is nothing new so far. But from here, you'll setup the Pages thing.
 
-### Add a 'gh-pages' branch
+#### Add a 'gh-pages' branch
 
 Next you must create a branch called `gh-pages` (it must be called exactly that -- this is not arbitrary). You can create this branch like this:
 
-  git branch gh-pages
+    git branch gh-pages
 
 Lastly, push the contents of the gh-pages to github. You can do it from master (or any branch) like this:
 
-  git push origin hg-pages
+    git push origin hg-pages
 
 And voila, the content of that branch will be on github pages after a few (as many as 10 minutes).
 
@@ -99,7 +99,7 @@ And voila, the content of that branch will be on github pages after a few (as ma
 
 When I follow the steps above, I get this far and have a problem: my hosted Github Pages sites loads, but no CSS is being loaded (as determined by viewing source or the infamous Times New Roman). Also, when I click on links -- I get a 404. So something is wrong. Lucky for you, I tracked the problem down (with the help of others who had this issue before me) and I'll tell you the quick and easy fix.
 
-### Tweak your Jekyll config
+#### Tweak your Jekyll config
 
 In your project's `_config.yml` file (found at the root level of the project directory), open it up and add this line:
 
@@ -107,7 +107,7 @@ In your project's `_config.yml` file (found at the root level of the project dir
 
 For example, my project name is `pages3` so I add `baseurl: /pages3`. This will enable us to easily tell Jekyll to add this directory path to the beginning of all URLs in our site. Which we'll handle next.
 
-### Check all URLs
+#### Check all URLs
 
 Next, you'll need to go through your Jekyll app and prepend any URL with `{{ "{{ site.baseurl " }}}}`. This might seem like a pain, but if it is a fresh Jekyll install there are really only a couple of these to worry about. Your changes will look like this, and they're all (I'm pretty sure) in the `_layouts/default.html` file:
 
@@ -119,7 +119,7 @@ becomes
 
 ...and so forth. Do this for your stylesheet `<link>` tags, as shown above, and also for any `<a>` tags you have.
 
-### Re-serving Jekyll
+#### Re-serving Jekyll
 
 Finally: with the above steps done, you'll need to relaunch Jekyll like this:
 
@@ -130,4 +130,3 @@ You'll need to add that `--baseurl ''` suffix every time, so that when you're ru
 ## All done!
 
 And that's it! A bit of a process, but really if you go through these steps once -- and then repeat them with a new Jekyll installation + Github repo (which is how I learn best), it shouldn't be too bad. Hopefully the gotcha's I name + solve above save you some time.
-  

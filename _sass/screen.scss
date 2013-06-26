@@ -3,10 +3,16 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-// @import "compass/reset";
+// Reset
+@import "reset_normalize";
+@import "reset_html5boilerplate";
 
-h1 { font-size: 32px; line-height: 40px; }
-h2 { font-size: 24px; line-height: 27px; }
-h3 { font-size: 18px; line-height: 21px; }
-h4 { font-size: 16px; line-height: 19px; }
-h5 { font-size: 16px; line-height: 19px; }
+// Basics
+@import "layout";
+@import "typography";
+
+
+// PUT THIS STUFF SOMEWHERE, EVENTUALLY
+
+    // For an image to be centered in its <div>
+    .img-centered { display: block; margin: 0 auto; }
