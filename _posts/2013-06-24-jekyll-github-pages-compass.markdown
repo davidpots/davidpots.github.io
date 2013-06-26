@@ -95,7 +95,7 @@ Lastly, push the contents of the gh-pages to github. You can do it from master (
 
 And voila, the content of that branch will be on github pages after a few (as many as 10 minutes).
 
-## Having a Jekyll base url problem?
+## Having a Jekyll baseurl problem?
 
 When I follow the steps above, I get this far and have a problem: my hosted Github Pages sites loads, but no CSS is being loaded (as determined by viewing source or the infamous Times New Roman). Also, when I click on links -- I get a 404. So something is wrong. Lucky for you, I tracked the problem down (with the help of others who had this issue before me) and I'll tell you the quick and easy fix.
 
@@ -103,7 +103,7 @@ When I follow the steps above, I get this far and have a problem: my hosted Gith
 
 In your project's `_config.yml` file (found at the root level of the project directory), open it up and add this line:
 
-    base url: /YOUR_PROJECT_NAME
+    baseurl: /YOUR_PROJECT_NAME
 
 For example, my project name is `pages3` so I add `baseurl: /pages3`. This will enable us to easily tell Jekyll to add this directory path to the beginning of all URLs in our site. Which we'll handle next.
 
