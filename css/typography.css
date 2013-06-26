@@ -77,11 +77,21 @@ ul, ol, dl {
 /* line 33, ../_sass/typography.scss */
 pre {
   margin: 32px 0 32px 0;
-  background: #eee;
   padding: 24px;
   border-radius: 6px;
+}
+
+/* line 34, ../_sass/typography.scss */
+pre, code {
   font-family: 'Andale Mono';
   color: #555;
   font-size: 15px;
   line-height: 19px;
+  background: #eee;
+}
+
+/* line 35, ../_sass/typography.scss */
+code {
+  padding: 4px 8px;
+  border-radius: 4px;
 }
