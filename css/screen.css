@@ -857,6 +857,7 @@ textarea {
 
 /* line 1, ../_sass/typography.scss */
 body {
+  background: #f5f6f6;
   color: #444;
   font-family: 'Merriweather', Georgia, serif;
   font-size: 18px;
@@ -868,7 +869,7 @@ body {
 /* Headers */
 /* ========================================================================= */
 /* Universal */
-/* line 14, ../_sass/typography.scss */
+/* line 15, ../_sass/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 40px 0 20px 0;
@@ -877,37 +878,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Specifics */
-/* line 17, ../_sass/typography.scss */
+/* line 18, ../_sass/typography.scss */
 h1 {
   font-size: 48px;
   line-height: 54px;
 }
 
-/* line 18, ../_sass/typography.scss */
+/* line 19, ../_sass/typography.scss */
 h2 {
   font-size: 32px;
   line-height: 32px;
 }
 
-/* line 19, ../_sass/typography.scss */
+/* line 20, ../_sass/typography.scss */
 h3 {
   font-size: 24px;
   line-height: 24px;
 }
 
-/* line 20, ../_sass/typography.scss */
+/* line 21, ../_sass/typography.scss */
 h4 {
   font-size: 21px;
   line-height: 21px;
 }
 
-/* line 21, ../_sass/typography.scss */
+/* line 22, ../_sass/typography.scss */
 h5 {
   font-size: 18px;
   line-height: 18px;
 }
 
-/* line 22, ../_sass/typography.scss */
+/* line 23, ../_sass/typography.scss */
 h6 {
   font-size: 18px;
   line-height: 18px;
@@ -916,46 +917,79 @@ h6 {
 /* ========================================================================= */
 /* General Elements */
 /* ========================================================================= */
-/* line 28, ../_sass/typography.scss */
+/* line 29, ../_sass/typography.scss */
 a {
-  color: #0033ff;
+  color: #e24825;
 }
 
-/* line 30, ../_sass/typography.scss */
+/* line 31, ../_sass/typography.scss */
 p {
   margin: 32px 0 32px 0;
 }
 
-/* line 31, ../_sass/typography.scss */
+/* line 32, ../_sass/typography.scss */
 ul, ol, dl {
   margin: 32px 0 32px 0;
 }
 
-/* line 33, ../_sass/typography.scss */
+/* line 34, ../_sass/typography.scss */
 pre {
   margin: 32px 0 32px 0;
   padding: 24px;
   border-radius: 6px;
 }
 
-/* line 34, ../_sass/typography.scss */
+/* line 35, ../_sass/typography.scss */
 pre, code {
   font-family: 'Andale Mono', monospace;
   color: #555;
   font-size: 15px;
   line-height: 21px;
-  background: #f6f6f6;
+  background: #eaeaea;
 }
 
-/* line 35, ../_sass/typography.scss */
+/* line 36, ../_sass/typography.scss */
 code {
   padding: 4px 8px;
   border-radius: 4px;
 }
 
-/* line 36, ../_sass/typography.scss */
+/* line 37, ../_sass/typography.scss */
 pre code {
   padding: 0;
+}
+
+/* ========================================================================= */
+/* Header */
+/* ========================================================================= */
+/* line 43, ../_sass/typography.scss */
+.header h1 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 700;
+  margin: 8px 0 12px 0;
+  text-align: center;
+}
+
+/* line 44, ../_sass/typography.scss */
+.header h1 a {
+  text-decoration: none;
+}
+
+/* line 45, ../_sass/typography.scss */
+.header p {
+  margin: 0 0 8px 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555;
+}
+
+/* line 46, ../_sass/typography.scss */
+.header p.where {
+  font-style: italic;
+  font-size: 14px;
+  color: #aaa;
 }
 
 /* line 18, ../_sass/screen.scss */

@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<h1 style="margin-bottom: 28px;">{{ page.title }}</h1>
+<p class="meta" style="margin: 0; font-weight: 300; font-style: italic; color: #aaa;">{{ page.date | date: "%B %e, %Y" }}</p>
 
 <div class="post">
 {{ content }}

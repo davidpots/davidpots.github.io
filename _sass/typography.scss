@@ -1,4 +1,5 @@
 body { 
+  background: #f5f6f6;
   color: #444;
   font-family: 'Merriweather', Georgia, serif;
   font-size: 18px;
@@ -25,12 +26,21 @@ body {
 /* General Elements */
 /* ========================================================================= */
 
-        a           { color: #0033ff; }
+        a           { color: #e24825; }
 
         p           { margin: 32px 0 32px 0; }
         ul,ol,dl    { margin: 32px 0 32px 0; }
 
         pre         { margin: 32px 0 32px 0; padding: 24px; border-radius: 6px; }
-        pre,code    { font-family: 'Andale Mono', monospace; color: #555; font-size: 15px; line-height: 21px; background: #f6f6f6; }
+        pre,code    { font-family: 'Andale Mono', monospace; color: #555; font-size: 15px; line-height: 21px; background: #eaeaea; }
         code        { padding: 4px 8px; border-radius: 4px;  }
         pre code    { padding: 0; }
+
+/* ========================================================================= */
+/* Header */
+/* ========================================================================= */
+
+        .header h1  { font-size: 28px; line-height: 34px; font-weight: 700; margin: 8px 0 12px 0; text-align: center; }
+        .header h1 a { text-decoration: none; }
+        .header p { margin: 0 0 8px 0; text-align: center; font-size: 16px; line-height: 24px; color: #555; }
+        .header p.where { font-style: italic; font-size: 14px; color: #aaa; }
