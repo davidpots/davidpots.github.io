@@ -74,7 +74,7 @@ Next, I'll show how to take your Jekyll site and have it hosted on Github Pages,
 #### Setup a Git Repo
 
 First, log in to github.com and create a new repo for your project. I'm going to use "pages3" to match my Jekyll app. With terminal pointed to your Jekyll project folder, setup git:
-  
+
     git init
     git add .
     git commit -m "First commit"
