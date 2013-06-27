@@ -91,7 +91,7 @@ Next you must create a branch called `gh-pages` (it must be called exactly that 
 
 Lastly, push the contents of the gh-pages to github. You can do it from master (or any branch) like this:
 
-    git push origin hg-pages
+    git push origin gh-pages
 
 And voila, the content of that branch will be on github pages after a few (as many as 10 minutes).
 

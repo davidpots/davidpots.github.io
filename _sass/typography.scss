@@ -1,6 +1,6 @@
 body { 
   color: #444;
-  font-family: 'Merriweather', Arial, serif;
+  font-family: 'Merriweather', Georgia, serif;
   font-size: 18px;
   font-weight: 400; 
   line-height: 28px;
@@ -11,7 +11,7 @@ body {
 /* ========================================================================= */
 
         /* Universal */
-        h1,h2,h3,h4,h5,h6 { color: #222; margin: 40px 0 20px 0; font-family: Lato, Georgia; font-weight: 800; }
+        h1,h2,h3,h4,h5,h6 { color: #222; margin: 40px 0 20px 0; font-family: Lato, Verdana, Tahoma, sans-serif; font-weight: 800; }
 
         /* Specifics */
         h1      { font-size: 48px; line-height: 54px; }
@@ -31,5 +31,6 @@ body {
         ul,ol,dl    { margin: 32px 0 32px 0; }
 
         pre         { margin: 32px 0 32px 0; padding: 24px; border-radius: 6px; }
-        pre,code    { font-family: 'Andale Mono', monospace; color: #555; color: red; font-size: 15px; line-height: 21px; background: #eee; }
+        pre,code    { font-family: 'Andale Mono', monospace; color: #555; font-size: 15px; line-height: 21px; background: #f6f6f6; }
         code        { padding: 4px 8px; border-radius: 4px;  }
+        pre code    { padding: 0; }
