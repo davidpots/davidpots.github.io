@@ -14,9 +14,9 @@
     width: 100%;
   }
 }
-@media (min-width: 728px) {
+@media (min-width: 768px) {
   /* line 10, ../_sass/layout.scss */
   .wrapper {
-    width: 728px;
+    width: 768px;
   }
 }
