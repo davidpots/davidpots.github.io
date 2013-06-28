@@ -849,6 +849,23 @@ textarea {
   padding: 20px;
 }
 
+/* line 5, ../_sass/layout.scss */
+.wrapper {
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) {
+  /* line 9, ../_sass/layout.scss */
+  .wrapper {
+    width: 100%;
+  }
+}
+@media (min-width: 728px) {
+  /* line 10, ../_sass/layout.scss */
+  .wrapper {
+    width: 728px;
+  }
+}
 /* line 1, ../_sass/typography.scss */
 body {
   background: #f5f6f6;

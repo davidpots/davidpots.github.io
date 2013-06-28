@@ -3,6 +3,9 @@
 }
 
 .wrapper {
-//  width: 700px;
-//  margin: 0 auto;
+  margin: 0 auto;
 }
+
+@media (min-width: 320px) { .wrapper { width: 100%;  } }
+@media (min-width: 728px) { .wrapper { width: 728px; } }
+
