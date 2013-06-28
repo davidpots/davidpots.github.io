@@ -23,17 +23,15 @@
 /* line 34, ../_sass/layout.scss */
 .wrapper {
   margin: 0 auto;
-  background: green;
 }
 
 @media (min-width: 768px) {
-  /* line 40, ../_sass/layout.scss */
+  /* line 39, ../_sass/layout.scss */
   .wrapper {
     width: 768px;
   }
 }
-/* line 44, ../_sass/layout.scss */
+/* line 43, ../_sass/layout.scss */
 .content {
-  padding: 20px 24px;
-  background: yellow;
+  padding: 20px 28px;
 }
