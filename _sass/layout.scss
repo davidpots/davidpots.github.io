@@ -1,3 +1,30 @@
+/*
+
+  <div class="layer">
+    <div class="content">
+  
+      <!-- Content (FULL WIDTH) goes here -->
+      
+    </div> <!-- .content -->
+  </div> <!-- .layer -->
+
+
+  <div class="layer">
+    <div class="content">
+      <div class="wrapper"
+
+        <!-- Content (FULL WIDTH) goes here -->
+
+      </div> <!-- .wrapper -->
+    </div> <!-- .content -->
+  </div> <!-- .layer -->
+
+*/
+
+
+
+
+
 // Horizontal Row -- always used, bg color goes here
 .layer { }
 
@@ -11,7 +38,7 @@
   margin: 0 auto;
 }
 
-@media (min-width: 320px) { .wrapper { width: 100%;  } }
+//@media (min-width: 320px) { .wrapper { width: 100%;  } }
 @media (min-width: 768px) { .wrapper { width: 768px; } }
 
 

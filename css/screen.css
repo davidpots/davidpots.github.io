@@ -844,24 +844,40 @@ textarea {
     page-break-after: avoid;
   }
 }
-/* line 5, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
+/*
+
+  <div class="layer">
+    <div class="content">
+  
+      <!-- Content (FULL WIDTH) goes here -->
+      
+    </div> <!-- .content -->
+  </div> <!-- .layer -->
+
+
+  <div class="layer">
+    <div class="content">
+      <div class="wrapper"
+
+        <!-- Content (FULL WIDTH) goes here -->
+
+      </div> <!-- .wrapper -->
+    </div> <!-- .content -->
+  </div> <!-- .layer -->
+
+*/
+/* line 32, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
 .content {
   padding: 20px 24px;
 }
 
-/* line 10, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
+/* line 37, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
 .wrapper {
   margin: 0 auto;
 }
 
-@media (min-width: 320px) {
-  /* line 14, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
-  .wrapper {
-    width: 100%;
-  }
-}
 @media (min-width: 768px) {
-  /* line 15, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
+  /* line 42, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
   .wrapper {
     width: 768px;
   }
