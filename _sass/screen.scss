@@ -22,3 +22,11 @@
 
     // So padding acts normal
     * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+    // So large images don't be wrapping on mobile
+    img,
+    audio,
+    video,
+    canvas {
+      max-width: 100%;
+    }
