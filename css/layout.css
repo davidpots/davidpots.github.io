@@ -1,22 +1,21 @@
-/* line 1, ../_sass/layout.scss */
-.layer {
-  padding: 20px 28px;
-  width: 100%;
+/* line 5, ../_sass/layout.scss */
+.content {
+  padding: 20px 24px;
 }
 
-/* line 6, ../_sass/layout.scss */
+/* line 10, ../_sass/layout.scss */
 .wrapper {
   margin: 0 auto;
 }
 
 @media (min-width: 320px) {
-  /* line 10, ../_sass/layout.scss */
+  /* line 14, ../_sass/layout.scss */
   .wrapper {
     width: 100%;
   }
 }
 @media (min-width: 768px) {
-  /* line 11, ../_sass/layout.scss */
+  /* line 15, ../_sass/layout.scss */
   .wrapper {
     width: 768px;
   }
