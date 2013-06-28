@@ -1,9 +1,10 @@
 /* line 1, ../_sass/layout.scss */
 .layer {
   padding: 20px;
+  width: 100%;
 }
 
-/* line 5, ../_sass/layout.scss */
+/* line 6, ../_sass/layout.scss */
 .wrapper {
   width: 700px;
   margin: 0 auto;

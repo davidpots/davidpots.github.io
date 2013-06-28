@@ -847,9 +847,10 @@ textarea {
 /* line 1, ../_sass/layout.scss */
 .layer {
   padding: 20px;
+  width: 100%;
 }
 
-/* line 5, ../_sass/layout.scss */
+/* line 6, ../_sass/layout.scss */
 .wrapper {
   width: 700px;
   margin: 0 auto;
@@ -996,4 +997,19 @@ pre code {
 .img-centered {
   display: block;
   margin: 0 auto;
+}
+
+/* line 20, ../_sass/screen.scss */
+.img-white-buffer {
+  padding: 30px 35px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* line 22, ../_sass/screen.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

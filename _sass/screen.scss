@@ -16,3 +16,10 @@
 
     // For an image to be centered in its <div>
     .img-centered { display: block; margin: 0 auto; }
+    // For an image with a non-transparent white background -- this extends the bg buffer + adds border
+    .img-white-buffer { padding: 30px 35px; background: #fff; border: 1px solid #ddd; border-radius: 8px; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
