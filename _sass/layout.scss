@@ -28,17 +28,20 @@
 // Horizontal Row -- always used, bg color goes here
 .layer { }
 
-// Content container -- always used, content goes in it
-.content {
-  padding: 20px 24px;  
-}
+
 
 // Centered content -- use as needed
 .wrapper {
   margin: 0 auto;
+  background: green;
 }
 
 //@media (min-width: 320px) { .wrapper { width: 100%;  } }
 @media (min-width: 768px) { .wrapper { width: 768px; } }
 
 
+// Content container -- always used, content goes in it
+.content {
+  padding: 20px 24px;  
+  background: yellow;
+}

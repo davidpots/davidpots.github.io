@@ -20,19 +20,20 @@
   </div> <!-- .layer -->
 
 */
-/* line 32, ../_sass/layout.scss */
-.content {
-  padding: 20px 24px;
-}
-
-/* line 37, ../_sass/layout.scss */
+/* line 34, ../_sass/layout.scss */
 .wrapper {
   margin: 0 auto;
+  background: green;
 }
 
 @media (min-width: 768px) {
-  /* line 42, ../_sass/layout.scss */
+  /* line 40, ../_sass/layout.scss */
   .wrapper {
     width: 768px;
   }
+}
+/* line 44, ../_sass/layout.scss */
+.content {
+  padding: 20px 24px;
+  background: yellow;
 }
