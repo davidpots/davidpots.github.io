@@ -847,13 +847,6 @@ textarea {
 /* line 1, ../_sass/layout.scss */
 .layer {
   padding: 20px;
-  width: 100%;
-}
-
-/* line 6, ../_sass/layout.scss */
-.wrapper {
-  width: 700px;
-  margin: 0 auto;
 }
 
 /* line 1, ../_sass/typography.scss */
@@ -999,7 +992,7 @@ pre code {
   margin: 0 auto;
 }
 
-/* line 20, ../_sass/screen.scss */
+/* line 21, ../_sass/screen.scss */
 .img-white-buffer {
   padding: 30px 35px;
   background: #fff;
@@ -1007,7 +1000,7 @@ pre code {
   border-radius: 8px;
 }
 
-/* line 22, ../_sass/screen.scss */
+/* line 24, ../_sass/screen.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
