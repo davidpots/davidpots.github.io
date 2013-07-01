@@ -1,6 +1,6 @@
 /* line 1, ../_sass/typography.scss */
 body {
-  background: #f5f6f6;
+  background: #fff;
   color: #444;
   font-family: 'Merriweather', Georgia, serif;
   font-size: 18px;
@@ -105,32 +105,35 @@ pre code {
 /* ========================================================================= */
 /* Header */
 /* ========================================================================= */
-/* line 43, ../_sass/typography.scss */
-.header h1 {
-  font-size: 28px;
-  line-height: 34px;
-  font-weight: 700;
-  margin: 8px 0 12px 0;
-  text-align: center;
-}
-
-/* line 44, ../_sass/typography.scss */
-.header h1 a {
-  text-decoration: none;
-}
-
 /* line 45, ../_sass/typography.scss */
-.header p {
-  margin: 0 0 8px 0;
+.header p.tagline {
+  margin: 0 0 20px 0;
   text-align: center;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
   color: #555;
+  font-family: Lato, Verdana, Tahoma, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
-/* line 46, ../_sass/typography.scss */
-.header p.where {
-  font-style: italic;
-  font-size: 14px;
-  color: #aaa;
+/* line 47, ../_sass/typography.scss */
+.header-main-bg {
+  background: url(/images/backgrounds/blur-v2.png) center top no-repeat, url(/images/backgrounds/bg-noise-grey-v2.jpg);
+  border-bottom: 1px solid #e3e3e4;
+  border-top: 6px solid #00b193;
+  background-color: #f5f6f6;
+}
+
+/* line 49, ../_sass/typography.scss */
+.header.header-main img.pyramid {
+  margin: 24px auto 18px auto;
+  display: block;
+}
+
+/* line 50, ../_sass/typography.scss */
+.header.header-main img.davidpots {
+  margin: 0 auto 16px auto;
+  display: block;
 }
