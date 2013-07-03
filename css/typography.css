@@ -118,7 +118,13 @@ pre code {
   text-transform: uppercase;
 }
 
-/* line 47, ../_sass/typography.scss */
+@media (max-width: 400px) {
+  /* line 47, ../_sass/typography.scss */
+  .header p.tagline {
+    font-size: 12px;
+  }
+}
+/* line 50, ../_sass/typography.scss */
 .header-main-bg {
   background: url(/images/backgrounds/blur-v2.png) center top no-repeat, url(/images/backgrounds/bg-noise-grey-v2.jpg);
   border-bottom: 1px solid #e3e3e4;
@@ -126,13 +132,13 @@ pre code {
   background-color: #f5f6f6;
 }
 
-/* line 49, ../_sass/typography.scss */
+/* line 52, ../_sass/typography.scss */
 .header.header-main img.pyramid {
   margin: 24px auto 18px auto;
   display: block;
 }
 
-/* line 50, ../_sass/typography.scss */
+/* line 53, ../_sass/typography.scss */
 .header.header-main img.davidpots {
   margin: 0 auto 16px auto;
   display: block;

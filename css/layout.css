@@ -26,12 +26,12 @@
 }
 
 @media (min-width: 768px) {
-  /* line 39, ../_sass/layout.scss */
+  /* line 40, ../_sass/layout.scss */
   .wrapper {
     width: 768px;
   }
 }
-/* line 43, ../_sass/layout.scss */
+/* line 45, ../_sass/layout.scss */
 .content {
   padding: 20px 28px;
 }

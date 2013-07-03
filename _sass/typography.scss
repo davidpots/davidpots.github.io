@@ -41,8 +41,11 @@ body {
 /* ========================================================================= */
 
 
-
+        // Tagline
         .header p.tagline { margin: 0 0 20px 0; text-align: center; font-size: 14px; line-height: 16px; letter-spacing: 2px; color: #555; font-family: Lato, Verdana, Tahoma, sans-serif; font-weight: 300; text-transform: uppercase; }
+        @media (max-width: 400px) { 
+          .header p.tagline { font-size: 12px; }
+        }
 
         .header-main-bg { background: url(/images/backgrounds/blur-v2.png) center top no-repeat, url(/images/backgrounds/bg-noise-grey-v2.jpg); border-bottom: 1px solid #e3e3e4; border-top: 6px solid #00b193; background-color: #f5f6f6; }
 
