@@ -1,3 +1,4 @@
 name: "davidpots"
 pygments: true
 permalink: /blog/:title
+auto: true # this is done b/c he told me to http://wolfslittlestore.be/2012/08/html-includes-with-jekyll/

@@ -36,7 +36,10 @@
 }
 
 //@media (min-width: 320px) { .wrapper { width: 100%;  } }
-@media (min-width: 768px) { .wrapper { width: 768px; } }
+@media (min-width: 768px) { 
+  .wrapper { width: 768px; } 
+  p.tagline { font-size: 12px; }
+}
 
 
 // Content container -- always used, content goes in it

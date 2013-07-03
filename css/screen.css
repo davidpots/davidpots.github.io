@@ -9,7 +9,7 @@
 /**
  * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 22, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 22, ../_sass/reset_normalize.scss */
 article,
 aside,
 details,
@@ -28,7 +28,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
  */
-/* line 32, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 32, ../_sass/reset_normalize.scss */
 audio,
 canvas,
 video {
@@ -41,7 +41,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 43, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 43, ../_sass/reset_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -51,7 +51,7 @@ audio:not([controls]) {
  * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
  * Known issue: no IE 6 support.
  */
-/* line 53, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 53, ../_sass/reset_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -65,7 +65,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 68, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 68, ../_sass/reset_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -79,7 +79,7 @@ html {
  * Address `font-family` inconsistency between `textarea` and other form
  * elements.
  */
-/* line 83, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 83, ../_sass/reset_normalize.scss */
 html,
 button,
 input,
@@ -91,7 +91,7 @@ textarea {
 /**
  * Address margins handled incorrectly in IE 6/7.
  */
-/* line 91, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 91, ../_sass/reset_normalize.scss */
 body {
   margin: 0;
 }
@@ -102,7 +102,7 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 103, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 103, ../_sass/reset_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -110,7 +110,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 112, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 112, ../_sass/reset_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -124,37 +124,37 @@ a:hover {
  * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
-/* line 126, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 126, ../_sass/reset_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 131, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 131, ../_sass/reset_normalize.scss */
 h2 {
   font-size: 1.5em;
   margin: 0.83em 0;
 }
 
-/* line 136, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 136, ../_sass/reset_normalize.scss */
 h3 {
   font-size: 1.17em;
   margin: 1em 0;
 }
 
-/* line 141, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 141, ../_sass/reset_normalize.scss */
 h4 {
   font-size: 1em;
   margin: 1.33em 0;
 }
 
-/* line 146, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 146, ../_sass/reset_normalize.scss */
 h5 {
   font-size: 0.83em;
   margin: 1.67em 0;
 }
 
-/* line 151, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 151, ../_sass/reset_normalize.scss */
 h6 {
   font-size: 0.67em;
   margin: 2.33em 0;
@@ -163,7 +163,7 @@ h6 {
 /**
  * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
  */
-/* line 160, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 160, ../_sass/reset_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -171,13 +171,13 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
  */
-/* line 169, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 169, ../_sass/reset_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 173, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 173, ../_sass/reset_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -185,7 +185,7 @@ blockquote {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 181, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 181, ../_sass/reset_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -194,7 +194,7 @@ dfn {
  * Address differences between Firefox and other browsers.
  * Known issue: no IE 6/7 normalization.
  */
-/* line 190, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 190, ../_sass/reset_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -204,7 +204,7 @@ hr {
 /**
  * Address styling not present in IE 6/7/8/9.
  */
-/* line 200, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 200, ../_sass/reset_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -213,7 +213,7 @@ mark {
 /**
  * Address margins set differently in IE 6/7.
  */
-/* line 210, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 210, ../_sass/reset_normalize.scss */
 p,
 pre {
   margin: 1em 0;
@@ -222,7 +222,7 @@ pre {
 /**
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
  */
-/* line 221, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 221, ../_sass/reset_normalize.scss */
 code,
 kbd,
 pre,
@@ -235,7 +235,7 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 231, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 231, ../_sass/reset_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -245,7 +245,7 @@ pre {
 /**
  * Address CSS quotes not supported in IE 6/7.
  */
-/* line 241, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 241, ../_sass/reset_normalize.scss */
 q {
   quotes: none;
 }
@@ -253,7 +253,7 @@ q {
 /**
  * Address `quotes` property not supported in Safari 4.
  */
-/* line 250, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 250, ../_sass/reset_normalize.scss */
 q:before,
 q:after {
   content: '';
@@ -263,7 +263,7 @@ q:after {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 259, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 259, ../_sass/reset_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -271,7 +271,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 268, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 268, ../_sass/reset_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -280,12 +280,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 275, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 275, ../_sass/reset_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 279, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 279, ../_sass/reset_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -296,7 +296,7 @@ sub {
 /**
  * Address margins set differently in IE 6/7.
  */
-/* line 294, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 294, ../_sass/reset_normalize.scss */
 dl,
 menu,
 ol,
@@ -304,7 +304,7 @@ ul {
   margin: 1em 0;
 }
 
-/* line 298, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 298, ../_sass/reset_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -312,7 +312,7 @@ dd {
 /**
  * Address paddings set differently in IE 6/7.
  */
-/* line 308, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 308, ../_sass/reset_normalize.scss */
 menu,
 ol,
 ul {
@@ -322,7 +322,7 @@ ul {
 /**
  * Correct list images handled incorrectly in IE 7.
  */
-/* line 317, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 317, ../_sass/reset_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -336,7 +336,7 @@ nav ol {
  * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
  * 2. Improve image quality when scaled in IE 7.
  */
-/* line 331, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 331, ../_sass/reset_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -347,7 +347,7 @@ img {
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 340, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 340, ../_sass/reset_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -358,7 +358,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
  */
-/* line 352, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 352, ../_sass/reset_normalize.scss */
 figure {
   margin: 0;
 }
@@ -369,7 +369,7 @@ figure {
 /**
  * Correct margin displayed oddly in IE 6/7.
  */
-/* line 364, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 364, ../_sass/reset_normalize.scss */
 form {
   margin: 0;
 }
@@ -377,7 +377,7 @@ form {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 372, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 372, ../_sass/reset_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -389,7 +389,7 @@ fieldset {
  * 2. Correct text not wrapping in Firefox 3.
  * 3. Correct alignment displayed oddly in IE 6/7.
  */
-/* line 384, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 384, ../_sass/reset_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -406,7 +406,7 @@ legend {
  *    and Chrome.
  * 3. Improve appearance and consistency in all browsers.
  */
-/* line 401, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 401, ../_sass/reset_normalize.scss */
 button,
 input,
 select,
@@ -425,7 +425,7 @@ textarea {
  * Address Firefox 3+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 414, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 414, ../_sass/reset_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -437,7 +437,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 426, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 426, ../_sass/reset_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -452,7 +452,7 @@ select {
  * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
  *    Known issue: inner spacing remains in IE 6.
  */
-/* line 443, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 443, ../_sass/reset_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -468,7 +468,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 454, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 454, ../_sass/reset_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -480,7 +480,7 @@ html input[disabled] {
  * 3. Remove excess padding in IE 7.
  *    Known issue: excess padding remains in IE 6.
  */
-/* line 466, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 466, ../_sass/reset_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -498,7 +498,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 479, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 479, ../_sass/reset_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -512,7 +512,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 492, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 492, ../_sass/reset_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -521,7 +521,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 3+.
  */
-/* line 501, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 501, ../_sass/reset_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -532,7 +532,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 6/7/8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 511, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 511, ../_sass/reset_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -546,7 +546,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 524, /Users/davidpots/dev/davidpots.com/_sass/reset_normalize.scss */
+/* line 524, ../_sass/reset_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -562,7 +562,7 @@ table {
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-/* line 17, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 17, ../_sass/reset_html5boilerplate.scss */
 html,
 button,
 input,
@@ -571,7 +571,7 @@ textarea {
   color: #222;
 }
 
-/* line 21, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 21, ../_sass/reset_html5boilerplate.scss */
 body {
   font-size: 1em;
   line-height: 1.4;
@@ -582,13 +582,13 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-/* line 32, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 32, ../_sass/reset_html5boilerplate.scss */
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
 
-/* line 37, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 37, ../_sass/reset_html5boilerplate.scss */
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -597,7 +597,7 @@ body {
 /*
  * A better looking default horizontal rule
  */
-/* line 46, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 46, ../_sass/reset_html5boilerplate.scss */
 hr {
   display: block;
   height: 1px;
@@ -610,7 +610,7 @@ hr {
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-/* line 59, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 59, ../_sass/reset_html5boilerplate.scss */
 img {
   vertical-align: middle;
 }
@@ -618,7 +618,7 @@ img {
 /*
  * Remove default fieldset styles.
  */
-/* line 67, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 67, ../_sass/reset_html5boilerplate.scss */
 fieldset {
   border: 0;
   margin: 0;
@@ -628,7 +628,7 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-/* line 77, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 77, ../_sass/reset_html5boilerplate.scss */
 textarea {
   resize: vertical;
 }
@@ -636,7 +636,7 @@ textarea {
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
-/* line 85, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 85, ../_sass/reset_html5boilerplate.scss */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -653,7 +653,7 @@ textarea {
 /*
  * Image replacement
  */
-/* line 120, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 120, ../_sass/reset_html5boilerplate.scss */
 .ir {
   background-color: transparent;
   border: 0;
@@ -662,7 +662,7 @@ textarea {
   *text-indent: -9999px;
 }
 
-/* line 128, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 128, ../_sass/reset_html5boilerplate.scss */
 .ir:before {
   content: "";
   display: block;
@@ -673,7 +673,7 @@ textarea {
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-/* line 139, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 139, ../_sass/reset_html5boilerplate.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
@@ -682,7 +682,7 @@ textarea {
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-/* line 148, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 148, ../_sass/reset_html5boilerplate.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -698,7 +698,7 @@ textarea {
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-/* line 165, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 165, ../_sass/reset_html5boilerplate.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -712,7 +712,7 @@ textarea {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-/* line 178, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 178, ../_sass/reset_html5boilerplate.scss */
 .invisible {
   visibility: hidden;
 }
@@ -728,7 +728,7 @@ textarea {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 195, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 195, ../_sass/reset_html5boilerplate.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -737,7 +737,7 @@ textarea {
   /* 2 */
 }
 
-/* line 200, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 200, ../_sass/reset_html5boilerplate.scss */
 .clearfix:after {
   clear: both;
 }
@@ -746,7 +746,7 @@ textarea {
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-/* line 209, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+/* line 209, ../_sass/reset_html5boilerplate.scss */
 .clearfix {
   *zoom: 1;
 }
@@ -767,7 +767,7 @@ textarea {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 236, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 236, ../_sass/reset_html5boilerplate.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -776,18 +776,18 @@ textarea {
     text-shadow: none !important;
   }
 
-  /* line 244, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 244, ../_sass/reset_html5boilerplate.scss */
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 248, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 248, ../_sass/reset_html5boilerplate.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 252, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 252, ../_sass/reset_html5boilerplate.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -795,33 +795,33 @@ textarea {
   /*
    * Don't show links for images, or javascript/internal links
    */
-  /* line 262, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 262, ../_sass/reset_html5boilerplate.scss */
   .ir a:after,
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 267, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 267, ../_sass/reset_html5boilerplate.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 272, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 272, ../_sass/reset_html5boilerplate.scss */
   thead {
     display: table-header-group;
     /* h5bp.com/t */
   }
 
-  /* line 277, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 277, ../_sass/reset_html5boilerplate.scss */
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 281, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 281, ../_sass/reset_html5boilerplate.scss */
   img {
     max-width: 100% !important;
   }
@@ -830,7 +830,7 @@ textarea {
     margin: 0.5cm;
 }
 
-  /* line 291, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 291, ../_sass/reset_html5boilerplate.scss */
   p,
   h2,
   h3 {
@@ -838,7 +838,7 @@ textarea {
     widows: 3;
   }
 
-  /* line 297, /Users/davidpots/dev/davidpots.com/_sass/reset_html5boilerplate.scss */
+  /* line 297, ../_sass/reset_html5boilerplate.scss */
   h2,
   h3 {
     page-break-after: avoid;
@@ -866,23 +866,23 @@ textarea {
   </div> <!-- .layer -->
 
 */
-/* line 34, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
+/* line 34, ../_sass/layout.scss */
 .wrapper {
   margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-  /* line 39, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
+  /* line 39, ../_sass/layout.scss */
   .wrapper {
     width: 768px;
   }
 }
-/* line 43, /Users/davidpots/dev/davidpots.com/_sass/layout.scss */
+/* line 43, ../_sass/layout.scss */
 .content {
   padding: 20px 28px;
 }
 
-/* line 1, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 1, ../_sass/typography.scss */
 body {
   background: #fff;
   color: #444;
@@ -896,7 +896,7 @@ body {
 /* Headers */
 /* ========================================================================= */
 /* Universal */
-/* line 15, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 15, ../_sass/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 40px 0 20px 0;
@@ -905,37 +905,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Specifics */
-/* line 18, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 18, ../_sass/typography.scss */
 h1 {
   font-size: 48px;
   line-height: 54px;
 }
 
-/* line 19, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 19, ../_sass/typography.scss */
 h2 {
   font-size: 32px;
   line-height: 32px;
 }
 
-/* line 20, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 20, ../_sass/typography.scss */
 h3 {
   font-size: 24px;
   line-height: 24px;
 }
 
-/* line 21, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 21, ../_sass/typography.scss */
 h4 {
   font-size: 21px;
   line-height: 21px;
 }
 
-/* line 22, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 22, ../_sass/typography.scss */
 h5 {
   font-size: 18px;
   line-height: 18px;
 }
 
-/* line 23, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 23, ../_sass/typography.scss */
 h6 {
   font-size: 18px;
   line-height: 18px;
@@ -944,29 +944,29 @@ h6 {
 /* ========================================================================= */
 /* General Elements */
 /* ========================================================================= */
-/* line 29, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 29, ../_sass/typography.scss */
 a {
   color: #e24825;
 }
 
-/* line 31, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 31, ../_sass/typography.scss */
 p {
   margin: 32px 0 32px 0;
 }
 
-/* line 32, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 32, ../_sass/typography.scss */
 ul, ol, dl {
   margin: 32px 0 32px 0;
 }
 
-/* line 34, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 34, ../_sass/typography.scss */
 pre {
   margin: 32px 0 32px 0;
   padding: 24px;
   border-radius: 6px;
 }
 
-/* line 35, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 35, ../_sass/typography.scss */
 pre, code {
   font-family: 'Andale Mono', monospace;
   color: #555;
@@ -975,13 +975,13 @@ pre, code {
   background: #eaeaea;
 }
 
-/* line 36, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 36, ../_sass/typography.scss */
 code {
   padding: 4px 8px;
   border-radius: 4px;
 }
 
-/* line 37, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 37, ../_sass/typography.scss */
 pre code {
   padding: 0;
 }
@@ -989,7 +989,7 @@ pre code {
 /* ========================================================================= */
 /* Header */
 /* ========================================================================= */
-/* line 45, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 45, ../_sass/typography.scss */
 .header p.tagline {
   margin: 0 0 20px 0;
   text-align: center;
@@ -1002,7 +1002,7 @@ pre code {
   text-transform: uppercase;
 }
 
-/* line 47, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 47, ../_sass/typography.scss */
 .header-main-bg {
   background: url(/images/backgrounds/blur-v2.png) center top no-repeat, url(/images/backgrounds/bg-noise-grey-v2.jpg);
   border-bottom: 1px solid #e3e3e4;
@@ -1010,13 +1010,13 @@ pre code {
   background-color: #f5f6f6;
 }
 
-/* line 49, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 49, ../_sass/typography.scss */
 .header.header-main img.pyramid {
   margin: 24px auto 18px auto;
   display: block;
 }
 
-/* line 50, /Users/davidpots/dev/davidpots.com/_sass/typography.scss */
+/* line 50, ../_sass/typography.scss */
 .header.header-main img.davidpots {
   margin: 0 auto 16px auto;
   display: block;
@@ -1049,4 +1049,36 @@ audio,
 video,
 canvas {
   max-width: 100%;
+}
+
+/* line 39, ../_sass/screen.scss */
+.pyramid-wrapper {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+/* line 40, ../_sass/screen.scss */
+.davidpots-wrapper {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+/* line 42, ../_sass/screen.scss */
+svg.logo-pyramid {
+  fill: #222;
+}
+
+/* line 43, ../_sass/screen.scss */
+svg.logo-pyramid {
+  fill: #222;
+}
+
+/* line 45, ../_sass/screen.scss */
+svg.logo-davidpots path {
+  fill: #222;
 }
