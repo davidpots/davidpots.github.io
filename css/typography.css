@@ -177,8 +177,9 @@ pre code {
 /* line 68, ../_sass/typography.scss */
 #home h4 {
   font-size: 35px;
+  line-height: 42px;
   border-bottom: 3px double #eaeaea;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
   margin-top: 90px;
   margin-bottom: 21px;
 }
