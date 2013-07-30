@@ -2,9 +2,9 @@ body {
   background: #fff;
   color: #444;
   font-family: 'Merriweather', Georgia, serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400; 
-  line-height: 28px;
+  line-height: 26px;
 }
 
 /* ========================================================================= */
@@ -51,3 +51,19 @@ body {
 
         .header.header-main img.pyramid   { margin: 24px auto 18px auto; display: block; }
         .header.header-main img.davidpots { margin: 0 auto 16px auto; display: block; }
+        
+/* ========================================================================= */
+/* Project Descriptions */
+/* ========================================================================= */
+
+.project_desc { margin: 0 0 40px 0;
+  h2 { margin: 0 0 8px 0; font-size: 28px; }
+  h2 a { text-decoration:none; }
+  h3 { margin: 0 0 12px 0; font-size:21px; }
+  p { margin: 0 0 10px 0; }
+  ul { margin-top: 0; }
+}
+
+#home { 
+  h4 { font-size: 35px; border-bottom: 3px double #eaeaea; padding-bottom: 18px; margin-top: 90px; margin-bottom: 21px; }
+}
