@@ -860,14 +860,15 @@ textarea {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 672px) {
   /* line 12, ../_sass/layout.scss */
   .content {
-    width: 768px;
+    width: 672px;
   }
 }
 /* line 18, ../_sass/layout.scss */
 * {
+  position: relative;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -876,54 +877,55 @@ textarea {
 /* line 1, ../_sass/typography.scss */
 body {
   background: #fff;
-  color: #444;
-  font-family: 'Merriweather', Georgia, serif;
+  color: #666;
+  font-family: 'Lato','Open Sans','Merriweather', Georgia, serif;
   font-size: 17px;
-  line-height: 26px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 /* ========================================================================= */
 /* Headers */
 /* ========================================================================= */
 /* Universal */
-/* line 14, ../_sass/typography.scss */
+/* line 15, ../_sass/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 40px 0 20px 0;
 }
 
 /* Specifics */
-/* line 17, ../_sass/typography.scss */
+/* line 18, ../_sass/typography.scss */
 h1 {
   font-size: 54px;
   line-height: 60px;
 }
 
-/* line 18, ../_sass/typography.scss */
+/* line 19, ../_sass/typography.scss */
 h2 {
   font-size: 32px;
   line-height: 36px;
 }
 
-/* line 19, ../_sass/typography.scss */
+/* line 20, ../_sass/typography.scss */
 h3 {
   font-size: 27px;
   line-height: 32px;
 }
 
-/* line 20, ../_sass/typography.scss */
+/* line 21, ../_sass/typography.scss */
 h4 {
   font-size: 20px;
   line-height: 24px;
 }
 
-/* line 21, ../_sass/typography.scss */
+/* line 22, ../_sass/typography.scss */
 h5 {
   font-size: 18px;
   line-height: 21px;
 }
 
-/* line 22, ../_sass/typography.scss */
+/* line 23, ../_sass/typography.scss */
 h6 {
   font-size: 18px;
   line-height: 21px;
@@ -932,75 +934,131 @@ h6 {
 /* ========================================================================= */
 /* General Elements */
 /* ========================================================================= */
-/* line 28, ../_sass/typography.scss */
+/* line 29, ../_sass/typography.scss */
 a {
   color: #e24825;
+  text-decoration: none;
 }
 
-/* line 30, ../_sass/typography.scss */
+/* line 31, ../_sass/typography.scss */
 p {
   margin: 32px 0 32px 0;
 }
 
-/* line 31, ../_sass/typography.scss */
+/* line 32, ../_sass/typography.scss */
 ul, ol, dl {
   margin: 32px 0 32px 0;
   padding-left: 26px;
 }
 
-/* line 33, ../_sass/typography.scss */
+/* line 34, ../_sass/typography.scss */
 pre {
-  margin: 32px 0 32px 0;
+  margin: 24px 0 24px 0;
   padding: 24px;
   border-radius: 6px;
 }
 
-/* line 34, ../_sass/typography.scss */
+/* line 35, ../_sass/typography.scss */
 pre, code {
   font-family: 'Andale Mono', monospace;
   color: #555;
   font-size: 15px;
   line-height: 21px;
-  background: #eaeaea;
-}
-
-/* line 35, ../_sass/typography.scss */
-code {
-  padding: 4px 8px;
-  border-radius: 4px;
+  background: #f3f3f3;
 }
 
 /* line 36, ../_sass/typography.scss */
+code {
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* line 37, ../_sass/typography.scss */
 pre code {
   padding: 0;
 }
 
-/* line 4, ../_sass/site.scss */
-.home h3 {
-  margin: 42px 0 18px 0;
-}
-/* line 5, ../_sass/site.scss */
-.home p {
-  margin: 0    0 12px 0;
-}
-/* line 7, ../_sass/site.scss */
-.home .project {
-  margin: 0 0 28px 0;
-}
-/* line 8, ../_sass/site.scss */
-.home .project h4 {
-  margin: 0 0 8px  0;
-}
-/* line 9, ../_sass/site.scss */
-.home .project ul {
-  margin: 0 0 24px 0;
-}
-/* line 10, ../_sass/site.scss */
-.home .project p {
-  margin: 0 0 8px  0;
+/* line 3, ../_sass/site.scss */
+.home-intro {
+  background: #f05722 url(/images/backgrounds/serrated-bottom-v1.png) repeat-x bottom;
+  background-size: 11px 4px;
+  padding: 48px 0 48px;
 }
 
+/* line 5, ../_sass/site.scss */
+.home-intro h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 0 6px 0;
+}
+/* line 6, ../_sass/site.scss */
+.home-intro p {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 21px;
+  margin: 0 0 0 0;
+}
+/* line 7, ../_sass/site.scss */
+.home-intro .logo {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 12px;
+}
+/* line 8, ../_sass/site.scss */
+.home-intro .logo svg {
+  width: 76px;
+  height: 76px;
+}
+
+/* line 11, ../_sass/site.scss */
+.home-main {
+  z-index: 2;
+}
+
+/* line 13, ../_sass/site.scss */
+.home-main h3 {
+  margin: 42px 0 12px 0;
+}
+/* line 14, ../_sass/site.scss */
+.home-main h3:first-child {
+  margin-top: 28px;
+}
+/* line 15, ../_sass/site.scss */
+.home-main p {
+  margin: 0    0 12px 0;
+}
+/* line 17, ../_sass/site.scss */
+.home-main .project {
+  margin: 0 0 28px 0;
+}
+/* line 18, ../_sass/site.scss */
+.home-main .project h4 {
+  margin: 0 0 3px  0;
+}
 /* line 19, ../_sass/site.scss */
+.home-main .project ul {
+  margin: 0 0 24px 0;
+}
+/* line 20, ../_sass/site.scss */
+.home-main .project p {
+  margin: 0 0 8px  0;
+}
+/* line 21, ../_sass/site.scss */
+.home-main .project p.sub {
+  color: #bbb;
+}
+
+/* line 24, ../_sass/site.scss */
+.secondary {
+  background: #eeeeee url(/images/backgrounds/serrated-top-v1.png) repeat-x top;
+  background-size: 11px 4px;
+  padding-bottom: 72px;
+}
+
+/* line 32, ../_sass/site.scss */
 img,
 audio,
 video,
@@ -1008,16 +1066,21 @@ canvas {
   max-width: 100%;
 }
 
-/* line 24, ../_sass/site.scss */
+/* line 37, ../_sass/site.scss */
 .img-centered {
   display: block;
   margin: 0 auto;
 }
 
-/* line 27, ../_sass/site.scss */
+/* line 40, ../_sass/site.scss */
 .img-white-buffer {
   padding: 30px 35px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
+}
+
+/* line 42, ../_sass/site.scss */
+.img-work {
+  margin: 28px auto;
 }

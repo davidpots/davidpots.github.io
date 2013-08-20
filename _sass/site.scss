@@ -1,14 +1,27 @@
 // Homepage stuff====================================================================
 
-      .home {
-        h3      { margin: 42px 0 18px 0; }
+      .home-intro { background: #f05722 url(/images/backgrounds/serrated-bottom-v1.png) repeat-x bottom; background-size: 11px 4px; padding: 48px 0 48px; }
+      .home-intro {
+        h1  { text-align: center; color: #fff; font-weight: 700; font-size: 48px; margin: 0 0 6px 0; }
+        p   { text-align: center; color: #fff; font-weight: 300; font-size: 21px; margin: 0 0 0 0; }
+        .logo { width: 76px; height: 76px; margin: 0 auto 12px; }
+        .logo svg { width: 76px; height: 76px; }
+      }
+
+      .home-main { z-index: 2; }
+      .home-main {
+        h3      { margin: 42px 0 12px 0; }
+        h3:first-child { margin-top: 28px; }
         p       { margin: 0    0 12px 0; }
 
         .project    { margin: 0 0 28px 0; }
-        .project h4 { margin: 0 0 8px  0; }
+        .project h4 { margin: 0 0 3px  0; }
         .project ul { margin: 0 0 24px 0; }
         .project p  { margin: 0 0 8px  0; }
+        .project p.sub { color: #bbb; }
       }
+
+      .secondary { background: #eee url(/images/backgrounds/serrated-top-v1.png) repeat-x top; background-size: 11px 4px; padding-bottom: 72px; }
 
 // Images within content ============================================================
 
@@ -26,3 +39,4 @@
       // For an image with a non-transparent white background -- this extends the bg buffer + adds border
       .img-white-buffer { padding: 30px 35px; background: #fff; border: 1px solid #ddd; border-radius: 8px; }
 
+      .img-work { margin: 28px auto; }

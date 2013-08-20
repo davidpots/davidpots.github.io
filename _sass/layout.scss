@@ -8,11 +8,11 @@
         .content.content-full { margin: 0; width: 100%; }
 
         // Unless a small screen, .content defaults to fixed width
-        @media (min-width: 768px) { 
-          .content { width: 768px; } 
+        @media (min-width: 672px) { 
+          .content { width: 672px; } 
         }
 
 // Layout, Misc ===============================================================
 
         // So padding acts normal
-        * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+        * { position: relative; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }

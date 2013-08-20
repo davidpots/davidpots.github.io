@@ -3,6 +3,7 @@ layout: post
 title:  "Git Basics: Adding a Rails Project to Github"
 date:   2013-03-21 08:51:00
 categories: rails tutorial development git
+published:false
 ---
 
 Here is a quick, simple tutorial on the steps required to get a new Rails project added to your Github account. Github is a marvelous resource you should certainly be using if you're messing with Rails. If you're branding stinking new to Git and don't have it setup on your machine, check out this Treehouse guide to [Git for Designers](http://blog.teamtreehouse.com/git-for-designers-part-1) or refer to the official [Git homepage](http://www.git-scm.com/book/en/Getting-Started-Installing-Git).

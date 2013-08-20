@@ -1,9 +1,10 @@
 body { 
   background: #fff;
-  color: #444;
-  font-family: 'Merriweather', Georgia, serif;
+  color: #666;
+  font-family: 'Lato','Open Sans','Merriweather', Georgia, serif;
   font-size: 17px;
-  line-height: 26px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 /* ========================================================================= */
@@ -25,12 +26,12 @@ body {
 /* General Elements */
 /* ========================================================================= */
 
-        a           { color: #e24825; }
+        a           { color: #e24825; text-decoration: none; }
 
         p           { margin: 32px 0 32px 0; }
         ul,ol,dl    { margin: 32px 0 32px 0; padding-left: 26px; }
 
-        pre         { margin: 32px 0 32px 0; padding: 24px; border-radius: 6px; }
-        pre,code    { font-family: 'Andale Mono', monospace; color: #555; font-size: 15px; line-height: 21px; background: #eaeaea; }
-        code        { padding: 4px 8px; border-radius: 4px;  }
+        pre         { margin: 24px 0 24px 0; padding: 24px; border-radius: 6px; }
+        pre,code    { font-family: 'Andale Mono', monospace; color: #555; font-size: 15px; line-height: 21px; background: #f3f3f3; }
+        code        { padding: 2px 4px; border-radius: 4px;  }
         pre code    { padding: 0; }

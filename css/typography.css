@@ -1,54 +1,55 @@
 /* line 1, ../_sass/typography.scss */
 body {
   background: #fff;
-  color: #444;
-  font-family: 'Merriweather', Georgia, serif;
+  color: #666;
+  font-family: 'Lato','Open Sans','Merriweather', Georgia, serif;
   font-size: 17px;
-  line-height: 26px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 /* ========================================================================= */
 /* Headers */
 /* ========================================================================= */
 /* Universal */
-/* line 14, ../_sass/typography.scss */
+/* line 15, ../_sass/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 40px 0 20px 0;
 }
 
 /* Specifics */
-/* line 17, ../_sass/typography.scss */
+/* line 18, ../_sass/typography.scss */
 h1 {
   font-size: 54px;
   line-height: 60px;
 }
 
-/* line 18, ../_sass/typography.scss */
+/* line 19, ../_sass/typography.scss */
 h2 {
   font-size: 32px;
   line-height: 36px;
 }
 
-/* line 19, ../_sass/typography.scss */
+/* line 20, ../_sass/typography.scss */
 h3 {
   font-size: 27px;
   line-height: 32px;
 }
 
-/* line 20, ../_sass/typography.scss */
+/* line 21, ../_sass/typography.scss */
 h4 {
   font-size: 20px;
   line-height: 24px;
 }
 
-/* line 21, ../_sass/typography.scss */
+/* line 22, ../_sass/typography.scss */
 h5 {
   font-size: 18px;
   line-height: 21px;
 }
 
-/* line 22, ../_sass/typography.scss */
+/* line 23, ../_sass/typography.scss */
 h6 {
   font-size: 18px;
   line-height: 21px;
@@ -57,45 +58,46 @@ h6 {
 /* ========================================================================= */
 /* General Elements */
 /* ========================================================================= */
-/* line 28, ../_sass/typography.scss */
+/* line 29, ../_sass/typography.scss */
 a {
   color: #e24825;
+  text-decoration: none;
 }
 
-/* line 30, ../_sass/typography.scss */
+/* line 31, ../_sass/typography.scss */
 p {
   margin: 32px 0 32px 0;
 }
 
-/* line 31, ../_sass/typography.scss */
+/* line 32, ../_sass/typography.scss */
 ul, ol, dl {
   margin: 32px 0 32px 0;
   padding-left: 26px;
 }
 
-/* line 33, ../_sass/typography.scss */
+/* line 34, ../_sass/typography.scss */
 pre {
-  margin: 32px 0 32px 0;
+  margin: 24px 0 24px 0;
   padding: 24px;
   border-radius: 6px;
 }
 
-/* line 34, ../_sass/typography.scss */
+/* line 35, ../_sass/typography.scss */
 pre, code {
   font-family: 'Andale Mono', monospace;
   color: #555;
   font-size: 15px;
   line-height: 21px;
-  background: #eaeaea;
-}
-
-/* line 35, ../_sass/typography.scss */
-code {
-  padding: 4px 8px;
-  border-radius: 4px;
+  background: #f3f3f3;
 }
 
 /* line 36, ../_sass/typography.scss */
+code {
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* line 37, ../_sass/typography.scss */
 pre code {
   padding: 0;
 }

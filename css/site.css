@@ -1,29 +1,84 @@
-/* line 4, ../_sass/site.scss */
-.home h3 {
-  margin: 42px 0 18px 0;
-}
-/* line 5, ../_sass/site.scss */
-.home p {
-  margin: 0    0 12px 0;
-}
-/* line 7, ../_sass/site.scss */
-.home .project {
-  margin: 0 0 28px 0;
-}
-/* line 8, ../_sass/site.scss */
-.home .project h4 {
-  margin: 0 0 8px  0;
-}
-/* line 9, ../_sass/site.scss */
-.home .project ul {
-  margin: 0 0 24px 0;
-}
-/* line 10, ../_sass/site.scss */
-.home .project p {
-  margin: 0 0 8px  0;
+/* line 3, ../_sass/site.scss */
+.home-intro {
+  background: #f05722 url(/images/backgrounds/serrated-bottom-v1.png) repeat-x bottom;
+  background-size: 11px 4px;
+  padding: 48px 0 48px;
 }
 
+/* line 5, ../_sass/site.scss */
+.home-intro h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 0 6px 0;
+}
+/* line 6, ../_sass/site.scss */
+.home-intro p {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 21px;
+  margin: 0 0 0 0;
+}
+/* line 7, ../_sass/site.scss */
+.home-intro .logo {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 12px;
+}
+/* line 8, ../_sass/site.scss */
+.home-intro .logo svg {
+  width: 76px;
+  height: 76px;
+}
+
+/* line 11, ../_sass/site.scss */
+.home-main {
+  z-index: 2;
+}
+
+/* line 13, ../_sass/site.scss */
+.home-main h3 {
+  margin: 42px 0 12px 0;
+}
+/* line 14, ../_sass/site.scss */
+.home-main h3:first-child {
+  margin-top: 28px;
+}
+/* line 15, ../_sass/site.scss */
+.home-main p {
+  margin: 0    0 12px 0;
+}
+/* line 17, ../_sass/site.scss */
+.home-main .project {
+  margin: 0 0 28px 0;
+}
+/* line 18, ../_sass/site.scss */
+.home-main .project h4 {
+  margin: 0 0 3px  0;
+}
 /* line 19, ../_sass/site.scss */
+.home-main .project ul {
+  margin: 0 0 24px 0;
+}
+/* line 20, ../_sass/site.scss */
+.home-main .project p {
+  margin: 0 0 8px  0;
+}
+/* line 21, ../_sass/site.scss */
+.home-main .project p.sub {
+  color: #bbb;
+}
+
+/* line 24, ../_sass/site.scss */
+.secondary {
+  background: #eeeeee url(/images/backgrounds/serrated-top-v1.png) repeat-x top;
+  background-size: 11px 4px;
+  padding-bottom: 72px;
+}
+
+/* line 32, ../_sass/site.scss */
 img,
 audio,
 video,
@@ -31,16 +86,21 @@ canvas {
   max-width: 100%;
 }
 
-/* line 24, ../_sass/site.scss */
+/* line 37, ../_sass/site.scss */
 .img-centered {
   display: block;
   margin: 0 auto;
 }
 
-/* line 27, ../_sass/site.scss */
+/* line 40, ../_sass/site.scss */
 .img-white-buffer {
   padding: 30px 35px;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
+}
+
+/* line 42, ../_sass/site.scss */
+.img-work {
+  margin: 28px auto;
 }

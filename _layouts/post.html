@@ -2,14 +2,20 @@
 layout: default
 ---
 
-<p style="margin: 0;"><a href="http://davidpots.com">&laquo; back to davidpots.com</a></p>
+<div class="section">
+  <div class="content">
 
-<h1 style="margin-bottom: 15px;">{{ page.title }}</h1>
-<p class="meta" style="margin: 0; font-weight: 300; font-style: italic; color: #aaa;">{{ page.date | date: "%B %e, %Y" }}</p>
+    <p style="margin: 0;"><a href="http://davidpots.com">&laquo; back to davidpots.com</a></p>
 
-<div class="post">
-{{ content }}
-</div>
+    <h1 style="margin-bottom: 15px;">{{ page.title }}</h1>
+    <p class="meta" style="margin: 0; font-weight: 300; font-style: italic; color: #aaa;">{{ page.date | date: "%B %e, %Y" }}</p>
 
-<hr />
-<p><a href="http://davidpots.com">&laquo; back to davidpots.com</a></p>
+    <div class="post">
+    {{ content }}
+    </div>
+
+    <hr />
+    <p><a href="http://davidpots.com">&laquo; back to davidpots.com</a></p>
+
+  </div> <!-- .content -->
+</div> <!-- .section -->

@@ -14,14 +14,15 @@
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 672px) {
   /* line 12, ../_sass/layout.scss */
   .content {
-    width: 768px;
+    width: 672px;
   }
 }
 /* line 18, ../_sass/layout.scss */
 * {
+  position: relative;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
