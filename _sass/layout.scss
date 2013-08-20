@@ -1,47 +1,18 @@
-/*
+// Layout, General ============================================================
 
-  <div class="layer">
-    <div class="content">
-  
-      <!-- Content (FULL WIDTH) goes here -->
-      
-    </div> <!-- .content -->
-  </div> <!-- .layer -->
+        // Horizontal Row -- always used, bg color goes here
+        .section                { padding: 20px; }
 
+        // Content
+        .content              { margin: 0 auto; }
+        .content.content-full { margin: 0; width: 100%; }
 
-  <div class="layer">
-    <div class="content">
-      <div class="wrapper"
+        // Unless a small screen, .content defaults to fixed width
+        @media (min-width: 768px) { 
+          .content { width: 768px; } 
+        }
 
-        <!-- Content (FULL WIDTH) goes here -->
+// Layout, Misc ===============================================================
 
-      </div> <!-- .wrapper -->
-    </div> <!-- .content -->
-  </div> <!-- .layer -->
-
-*/
-
-
-
-
-
-// Horizontal Row -- always used, bg color goes here
-.layer { }
-
-
-
-// Centered content -- use as needed
-.wrapper {
-  margin: 0 auto;
-}
-
-//@media (min-width: 320px) { .wrapper { width: 100%;  } }
-@media (min-width: 768px) { 
-  .wrapper { width: 768px; } 
-}
-
-
-// Content container -- always used, content goes in it
-.content {
-  padding: 20px 28px;  
-}
+        // So padding acts normal
+        * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }

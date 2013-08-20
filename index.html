@@ -3,35 +3,33 @@ layout: default
 title: David Potsiadlo // Design and Development
 ---
 
-<div id="home">
+<div class="home">
 
-  <h4 style="margin-top: 38px;">About</h4>  
-  <p style="margin: 18px 0;">My name is David Potsiadlo. I'm in the game of UX design &amp; front-end development for LivingSocial, where I'm quite passionate about building products & applications for glowing screens of all sizes. I'm based in DC by day and Maryland by night. I'm a huge fan of podcasts and love <a href="http://www.songnotes.cc" target="_blank">to play the guitar</a>.</p>
-  <p style="margin: 18px 0;">You may want to follow me on <a href="http://www.twitter.com/davidpots" target="_blank">Twitter</a> or <a href="http://dribbble.com/davidpots" target="_blank">Dribbble</a> or <a href="http://github.com/davidpots" target="_blank">GitHub</a> or <a href="http://www.linkedin.com/in/davidpots" target="_blank">LinkedIn</a>.
+  <h1>David Potsiadlo</h1>
+  
+  <h3>About</h3>  
+  <p>Since 2005, I've worked professionally to combine my UX/UI design and front-end development skills toward non-profit, enterprise, and consumer web projects. Currently, I'm a proud member of the UX team at LivingSocial, where I help design products and interactions for screens of all sizes. Outside of work, I'm a proud family man who enjoys podcasts and loves <a href="http://www.songnotes.cc" target="_blank">playing the guitar</a>.</p>
+  <p>You may want to follow me on <a href="http://www.twitter.com/davidpots" target="_blank">Twitter</a> or <a href="http://dribbble.com/davidpots" target="_blank">Dribbble</a> or <a href="http://github.com/davidpots" target="_blank">GitHub</a> or <a href="http://www.linkedin.com/in/davidpots" target="_blank">LinkedIn</a>.
 
-  <h4 style="maring-bottom: 0;">My Projects</h4>
-  <div class="project_desc">
-    <h2><a target="_blank" href="http://www.songnotes.cc">Songnotes</a></h2>
-    <h3>Hand-crafted music library</h3>
-    <p>I designed &amp; developed Songnotes to help me share my growing collection of curated guitar tabs, chords, lyrics, and lessons with musicians across the world. To do this, I built a Rails-powered CMS that feeds my hand-crafted song metadata snippets into a carefully designed framework that was built to support the structure of any song. The result is high-quality, consistent, and media rich music notation that works for today's web-native audience.</p>
-    <ul>
-      <li>Visit the Songnotes <a target="_blank" href="http://www.songnotes.cc">website</a></li>
-      <li>Get song updates on <a target="_blank" href="http://twitter.com/playsongnotes">Twitter</a>, <a target="_blank" href="http://facebook.com/songnotes">Facebook</a>, or <a target="_blank" href="https://plus.google.com/b/108964489013808568272/108964489013808568272/posts">Google+</a></li>
-    </ul>
+  <h3>Featured Project</h3>
+  <div class="project">
+    <h4><a target="_blank" href="http://www.songnotes.cc">Songnotes</a></h4>
+    <p>I designed &amp; developed Songnotes to help me share my growing collection of curated guitar tabs, chords, lyrics, and lessons with aspiring musicians across the world. To do this, I built a Rails-powered CMS that feeds my hand-crafted song metadata snippets into a carefully designed framework that was built to support the structure of any song. The result is high-quality, consistent, and media-rich music notation that works for today's web-native audience.</p>
   </div>
 
-  <div class="project_desc">
-    <h2><a target="_blank" href="http://davidpots.com/wisp">Wisp</a></h2>
-    <h3>Lightweight HTML/CSS/JS Starter Kit</h3>
-    <p>Wisp is a dead-simple HTML framework to help you quickstart any project or rapid prototype. Quite simply, it sets up a generic project directory with an index.html file already linked to the usual CSS and jQuery resources. For simple projects where Rails or the HTML5 Boilerplate is overkill, Wisp helps you hit the ground running without any overhead.</p>
-    <ul>
-      <li>View the <a target="_blank" href="http://davidpots.com/wisp">Wisp project page</a></li>
-      <li>Download Wisp from <a target="_blank" href="https://github.com/davidpots/wisp">GitHub</a> or as a <a target="_blank" href="https://github.com/davidpots/wisp/archive/master.zip">.zip file</a></li>
-    </ul>
+  <h3>Other Projects</h3>
+  <div class="project">
+    <h4><a href="http://davidpots.com/wisp">Wisp</a></h4>
+    <p>Wisp is an ultra-lightweight HTML framework to help you quickstart any project or rapid prototype. Quite simply, it sets up a generic project directory with an index.html file already linked to the usual CSS and jQuery resources. For simple projects where Rails or the HTML5 Boilerplate is overkill, Wisp helps you hit the ground running without any overhead.</p>
+  </div>
+  <div class="project">
+    <h4><a href="http://davidpots.com/fireflygrove">Firefly Grove</a></h4>
+    <p>Firefly Grove is a personal songwriting project showcasing 9 lo-fi folk songs I wrote &amp; recorded dating back to 2008-2009. From a technical viewpoint, I used this project as an opportunity to introduce myself with the Soundcloud API &amp; SDK while also exploring some jQuery layout techniques.</p>
   </div>
 
-  <h4 style="maring-bottom: 0;">Things I've Written</h4>
+  <h3>Blog Posts</h3>
   {% for post in site.posts %}
-  <p style="margin-top: 12px; margin-bottom: 12px;"><a href="{{ post.url }}">{{ post.title }}</a><br /><span style="font-weight: 300;font-style: italic;color: #aaa;">{{ post.date | date: "%B %e, %Y" }}</span></p>
+  <p style="margin: 8px 0;"><a href="{{ post.url }}">{{ post.title }}</a> <span style="color: #aaa;">{{ post.date | date: "%B %e, %Y" }}</span></p>
   {% endfor %}
+  
 </div>

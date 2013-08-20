@@ -1,37 +1,28 @@
-/*
+/* line 4, ../_sass/layout.scss */
+.section {
+  padding: 20px;
+}
 
-  <div class="layer">
-    <div class="content">
-  
-      <!-- Content (FULL WIDTH) goes here -->
-      
-    </div> <!-- .content -->
-  </div> <!-- .layer -->
-
-
-  <div class="layer">
-    <div class="content">
-      <div class="wrapper"
-
-        <!-- Content (FULL WIDTH) goes here -->
-
-      </div> <!-- .wrapper -->
-    </div> <!-- .content -->
-  </div> <!-- .layer -->
-
-*/
-/* line 34, ../_sass/layout.scss */
-.wrapper {
+/* line 7, ../_sass/layout.scss */
+.content {
   margin: 0 auto;
 }
 
+/* line 8, ../_sass/layout.scss */
+.content.content-full {
+  margin: 0;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
-  /* line 40, ../_sass/layout.scss */
-  .wrapper {
+  /* line 12, ../_sass/layout.scss */
+  .content {
     width: 768px;
   }
 }
-/* line 45, ../_sass/layout.scss */
-.content {
-  padding: 20px 28px;
+/* line 18, ../_sass/layout.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

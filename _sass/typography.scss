@@ -3,7 +3,6 @@ body {
   color: #444;
   font-family: 'Merriweather', Georgia, serif;
   font-size: 17px;
-  font-weight: 400; 
   line-height: 26px;
 }
 
@@ -12,15 +11,15 @@ body {
 /* ========================================================================= */
 
         /* Universal */
-        h1,h2,h3,h4,h5,h6 { color: #222; margin: 40px 0 20px 0; font-family: Lato, Verdana, Tahoma, sans-serif; font-weight: 800; }
+        h1,h2,h3,h4,h5,h6 { color: #222; margin: 40px 0 20px 0; }
 
         /* Specifics */
-        h1      { font-size: 48px; line-height: 54px; }
-        h2      { font-size: 32px; line-height: 32px; }
-        h3      { font-size: 24px; line-height: 24px; }
-        h4      { font-size: 21px; line-height: 21px; }
-        h5      { font-size: 18px; line-height: 18px; }
-        h6      { font-size: 18px; line-height: 18px; }
+        h1      { font-size: 54px; line-height: 60px; }
+        h2      { font-size: 32px; line-height: 36px; }
+        h3      { font-size: 27px; line-height: 32px; }
+        h4      { font-size: 20px; line-height: 24px; }
+        h5      { font-size: 18px; line-height: 21px; }
+        h6      { font-size: 18px; line-height: 21px; }
 
 /* ========================================================================= */
 /* General Elements */
@@ -29,41 +28,9 @@ body {
         a           { color: #e24825; }
 
         p           { margin: 32px 0 32px 0; }
-        ul,ol,dl    { margin: 32px 0 32px 0; }
+        ul,ol,dl    { margin: 32px 0 32px 0; padding-left: 26px; }
 
         pre         { margin: 32px 0 32px 0; padding: 24px; border-radius: 6px; }
         pre,code    { font-family: 'Andale Mono', monospace; color: #555; font-size: 15px; line-height: 21px; background: #eaeaea; }
         code        { padding: 4px 8px; border-radius: 4px;  }
         pre code    { padding: 0; }
-
-/* ========================================================================= */
-/* Header */
-/* ========================================================================= */
-
-
-        // Tagline
-        .header p.tagline { margin: 0 0 20px 0; text-align: center; font-size: 14px; line-height: 16px; letter-spacing: 2px; color: #555; font-family: Lato, Verdana, Tahoma, sans-serif; font-weight: 300; text-transform: uppercase; }
-        @media (max-width: 400px) { 
-          .header p.tagline { font-size: 12px; }
-        }
-
-        .header-main-bg { background: url(/images/backgrounds/blur-v2.png) center top no-repeat, url(/images/backgrounds/bg-noise-grey-v2.jpg); border-bottom: 1px solid #e3e3e4; border-top: 6px solid #00b193; background-color: #f5f6f6; }
-
-        .header.header-main img.pyramid   { margin: 24px auto 18px auto; display: block; }
-        .header.header-main img.davidpots { margin: 0 auto 16px auto; display: block; }
-        
-/* ========================================================================= */
-/* Project Descriptions */
-/* ========================================================================= */
-
-.project_desc { margin: 0 0 40px 0;
-  h2 { margin: 0 0 8px 0; font-size: 28px; }
-  h2 a { text-decoration:none; }
-  h3 { margin: 0 0 12px 0; font-size:21px; }
-  p { margin: 0 0 10px 0; }
-  ul { margin-top: 0; }
-}
-
-#home { 
-  h4 { font-size: 35px; line-height: 42px; border-bottom: 3px double #eaeaea; padding-bottom: 14px; margin-top: 90px; margin-bottom: 21px; }
-}

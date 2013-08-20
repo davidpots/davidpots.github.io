@@ -7,41 +7,19 @@
       <meta name="viewport" content="width=device-width">
 
       <!-- SCSS, baby -->
-      <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Merriweather:400,300italic,300,400italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="/css/screen.css">
+      <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,300,400italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="/css/application.css">
 
   </head>
   <body>
 
-    <div class="layer header-main-bg">
-      <div class="wrapper">
-        <div class="content">
-
-          <div class="header header-main">
-            <a href="http://davidpots.com" style="display: block; text-decoration: none;">
-              <div class="pyramid-wrapper">
-                {% include images/pyramid-v1.svg %}
-              </div>
-              <div class="davidpots-wrapper">
-                {% include images/davidpots-v1.svg %}
-              </div>
-              <p class="tagline">UX/UI Design&nbsp;&nbsp;&amp;&nbsp;&nbsp;Development</p>
-            </a>
-          </div>
-
-        </div> <!-- .content -->
-      </div> <!-- .wrapper -->
-    </div> <!-- .layer -->
-
-    <div class="layer">
-      <div class="wrapper">
-        <div class="content">
+    <div class="section">
+      <div class="content">
 
           {{ content }}
 
-        </div> <!-- .content -->
-      </div> <!-- .wrapper -->
-    </div> <!-- .layer -->
+      </div> <!-- .content -->
+    </div> <!-- .section -->
 
     {% include google_analytics.html %}
 

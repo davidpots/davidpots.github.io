@@ -1,0 +1,46 @@
+/* line 4, ../_sass/site.scss */
+.home h3 {
+  margin: 42px 0 18px 0;
+}
+/* line 5, ../_sass/site.scss */
+.home p {
+  margin: 0    0 12px 0;
+}
+/* line 7, ../_sass/site.scss */
+.home .project {
+  margin: 0 0 28px 0;
+}
+/* line 8, ../_sass/site.scss */
+.home .project h4 {
+  margin: 0 0 8px  0;
+}
+/* line 9, ../_sass/site.scss */
+.home .project ul {
+  margin: 0 0 24px 0;
+}
+/* line 10, ../_sass/site.scss */
+.home .project p {
+  margin: 0 0 8px  0;
+}
+
+/* line 19, ../_sass/site.scss */
+img,
+audio,
+video,
+canvas {
+  max-width: 100%;
+}
+
+/* line 24, ../_sass/site.scss */
+.img-centered {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 27, ../_sass/site.scss */
+.img-white-buffer {
+  padding: 30px 35px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}

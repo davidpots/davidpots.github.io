@@ -4,7 +4,6 @@ body {
   color: #444;
   font-family: 'Merriweather', Georgia, serif;
   font-size: 17px;
-  font-weight: 400;
   line-height: 26px;
 }
 
@@ -12,77 +11,76 @@ body {
 /* Headers */
 /* ========================================================================= */
 /* Universal */
-/* line 15, ../_sass/typography.scss */
+/* line 14, ../_sass/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 40px 0 20px 0;
-  font-family: Lato, Verdana, Tahoma, sans-serif;
-  font-weight: 800;
 }
 
 /* Specifics */
-/* line 18, ../_sass/typography.scss */
+/* line 17, ../_sass/typography.scss */
 h1 {
-  font-size: 48px;
-  line-height: 54px;
+  font-size: 54px;
+  line-height: 60px;
+}
+
+/* line 18, ../_sass/typography.scss */
+h2 {
+  font-size: 32px;
+  line-height: 36px;
 }
 
 /* line 19, ../_sass/typography.scss */
-h2 {
-  font-size: 32px;
+h3 {
+  font-size: 27px;
   line-height: 32px;
 }
 
 /* line 20, ../_sass/typography.scss */
-h3 {
-  font-size: 24px;
+h4 {
+  font-size: 20px;
   line-height: 24px;
 }
 
 /* line 21, ../_sass/typography.scss */
-h4 {
-  font-size: 21px;
+h5 {
+  font-size: 18px;
   line-height: 21px;
 }
 
 /* line 22, ../_sass/typography.scss */
-h5 {
-  font-size: 18px;
-  line-height: 18px;
-}
-
-/* line 23, ../_sass/typography.scss */
 h6 {
   font-size: 18px;
-  line-height: 18px;
+  line-height: 21px;
 }
 
 /* ========================================================================= */
 /* General Elements */
 /* ========================================================================= */
-/* line 29, ../_sass/typography.scss */
+/* line 28, ../_sass/typography.scss */
 a {
   color: #e24825;
 }
 
-/* line 31, ../_sass/typography.scss */
+/* line 30, ../_sass/typography.scss */
 p {
   margin: 32px 0 32px 0;
 }
 
-/* line 32, ../_sass/typography.scss */
+/* line 31, ../_sass/typography.scss */
 ul, ol, dl {
   margin: 32px 0 32px 0;
+  padding-left: 26px;
 }
 
-/* line 34, ../_sass/typography.scss */
+/* line 33, ../_sass/typography.scss */
 pre {
   margin: 32px 0 32px 0;
   padding: 24px;
   border-radius: 6px;
 }
 
-/* line 35, ../_sass/typography.scss */
+/* line 34, ../_sass/typography.scss */
 pre, code {
   font-family: 'Andale Mono', monospace;
   color: #555;
@@ -91,95 +89,13 @@ pre, code {
   background: #eaeaea;
 }
 
-/* line 36, ../_sass/typography.scss */
+/* line 35, ../_sass/typography.scss */
 code {
   padding: 4px 8px;
   border-radius: 4px;
 }
 
-/* line 37, ../_sass/typography.scss */
+/* line 36, ../_sass/typography.scss */
 pre code {
   padding: 0;
-}
-
-/* ========================================================================= */
-/* Header */
-/* ========================================================================= */
-/* line 45, ../_sass/typography.scss */
-.header p.tagline {
-  margin: 0 0 20px 0;
-  text-align: center;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 2px;
-  color: #555;
-  font-family: Lato, Verdana, Tahoma, sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-@media (max-width: 400px) {
-  /* line 47, ../_sass/typography.scss */
-  .header p.tagline {
-    font-size: 12px;
-  }
-}
-/* line 50, ../_sass/typography.scss */
-.header-main-bg {
-  background: url(/images/backgrounds/blur-v2.png) center top no-repeat, url(/images/backgrounds/bg-noise-grey-v2.jpg);
-  border-bottom: 1px solid #e3e3e4;
-  border-top: 6px solid #00b193;
-  background-color: #f5f6f6;
-}
-
-/* line 52, ../_sass/typography.scss */
-.header.header-main img.pyramid {
-  margin: 24px auto 18px auto;
-  display: block;
-}
-
-/* line 53, ../_sass/typography.scss */
-.header.header-main img.davidpots {
-  margin: 0 auto 16px auto;
-  display: block;
-}
-
-/* ========================================================================= */
-/* Project Descriptions */
-/* ========================================================================= */
-/* line 59, ../_sass/typography.scss */
-.project_desc {
-  margin: 0 0 40px 0;
-}
-/* line 60, ../_sass/typography.scss */
-.project_desc h2 {
-  margin: 0 0 8px 0;
-  font-size: 28px;
-}
-/* line 61, ../_sass/typography.scss */
-.project_desc h2 a {
-  text-decoration: none;
-}
-/* line 62, ../_sass/typography.scss */
-.project_desc h3 {
-  margin: 0 0 12px 0;
-  font-size: 21px;
-}
-/* line 63, ../_sass/typography.scss */
-.project_desc p {
-  margin: 0 0 10px 0;
-}
-/* line 64, ../_sass/typography.scss */
-.project_desc ul {
-  margin-top: 0;
-}
-
-/* line 68, ../_sass/typography.scss */
-#home h4 {
-  font-size: 35px;
-  line-height: 42px;
-  border-bottom: 3px double #eaeaea;
-  padding-bottom: 14px;
-  margin-top: 90px;
-  margin-bottom: 21px;
 }

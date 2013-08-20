@@ -1,0 +1,28 @@
+// Homepage stuff====================================================================
+
+      .home {
+        h3      { margin: 42px 0 18px 0; }
+        p       { margin: 0    0 12px 0; }
+
+        .project    { margin: 0 0 28px 0; }
+        .project h4 { margin: 0 0 8px  0; }
+        .project ul { margin: 0 0 24px 0; }
+        .project p  { margin: 0 0 8px  0; }
+      }
+
+// Images within content ============================================================
+
+      // So large images don't be wrapping on mobile
+      img,
+      audio,
+      video,
+      canvas {
+        max-width: 100%;
+      }
+
+      // For an image to be centered in its <div>
+      .img-centered { display: block; margin: 0 auto; }
+
+      // For an image with a non-transparent white background -- this extends the bg buffer + adds border
+      .img-white-buffer { padding: 30px 35px; background: #fff; border: 1px solid #ddd; border-radius: 8px; }
+
