@@ -3,7 +3,6 @@ layout: post
 title:  "Rails Basics: Setting Up a Homepage"
 date:   2013-03-19 09:33:00
 categories: rails tutorial development
-published:false
 ---
 
 Here's a quick tutorial on setting up a simple homepage to the Rails project you just created. This is a great early exercise to get familiar with if you're new to Rails and want to go through the motions a few times with wiring things together.
