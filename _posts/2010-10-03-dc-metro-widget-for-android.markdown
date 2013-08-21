@@ -17,7 +17,7 @@ Putting this idea into form, I first created a very literal translation of the s
 
 <img class="img-centered img-white-buffer" src="/images/blog/2010-10-03-dc-metro-widget-for-android/1-android-dc-metro-widget-sized.png" />
 
-Immediately I realized that Greenbelt is in a relatively rare situation amongst it metro station peers: it is at the end of a line, and all trains go in a single direction. A more practical widget solution would need to account for stations with trains going in multiple directions — and possibly, on multiple metro lines (i.e., green, red, etc). For design & layout, I found easy inspiration in the great UI work <a href="http://10k.aneventapart.com/1/Uploads/413/" target="_blank">done by David Desandro and Ian Storm</a> for their recent <a href="http://10k.aneventapart.com/1/Entry/413" target="_blank">Next Metro app</a> built for the 10kApart contest.
+Immediately I realized that Greenbelt is in a relatively rare situation amongst it metro station peers: it is at the end of a line, and all trains go in a single direction. A more practical widget solution would need to account for stations with trains going in multiple directions — and possibly, on multiple metro lines (i.e., green, red, etc). For design & layout, I found easy inspiration in the great UI work <a href="http://10k.aneventapart.com/1/Uploads/413/">done by David Desandro and Ian Storm</a> for their recent <a href="http://10k.aneventapart.com/1/Entry/413">Next Metro app</a> built for the 10kApart contest.
 
 <img class="img-centered img-white-buffer" src="/images/blog/2010-10-03-dc-metro-widget-for-android/2-android-dc-metro-widget-sized.png" />
 

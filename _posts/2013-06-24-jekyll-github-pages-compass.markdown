@@ -5,7 +5,7 @@ date:   2013-06-24 22:35:00
 categories: jekyll tutorial git
 ---
 
-This is a walkthrough of how I setup a fresh <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> installation, add <a href="http://compass-style.org/" target="_blank">Compass</a> for SCSS/SASS, and then deploy it to <a href="http://pages.github.com/" target="_blank">Github Pages</a>. For me, this trifecta seems like tremendously valuable tool to have in the arsenal when it comes to rapid prototyping and simple site creation. I plan on using this platform for my own personal website + blog, but you could also use this for hosting micro-sites or any sort of basic prototype (mobile, etc) you have in mind.
+This is a walkthrough of how I setup a fresh <a href="http://jekyllrb.com/">Jekyll</a> installation, add <a href="http://compass-style.org/">Compass</a> for SCSS/SASS, and then deploy it to <a href="http://pages.github.com/">Github Pages</a>. For me, this trifecta seems like tremendously valuable tool to have in the arsenal when it comes to rapid prototyping and simple site creation. I plan on using this platform for my own personal website + blog, but you could also use this for hosting micro-sites or any sort of basic prototype (mobile, etc) you have in mind.
 
 If this sounds interesting, I hope this will be of help to you. I document a few solutions to snags I ran into along the way -- I hope this saves you some time. Good luck!
 
