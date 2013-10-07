@@ -61,6 +61,7 @@
 .home-main .project p.sub {
   color: #aaa;
   margin: 0 0 12px 0;
+  line-height: 23px;
 }
 /* line 20, ../_sass/site.scss */
 .home-main .project ul {

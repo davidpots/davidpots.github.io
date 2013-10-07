@@ -846,7 +846,7 @@ textarea {
 }
 /* line 4, ../_sass/layout.scss */
 .section {
-  padding: 20px;
+  padding: 20px 5%;
 }
 
 /* line 7, ../_sass/layout.scss */
@@ -1043,6 +1043,7 @@ pre code {
 .home-main .project p.sub {
   color: #aaa;
   margin: 0 0 12px 0;
+  line-height: 23px;
 }
 /* line 20, ../_sass/site.scss */
 .home-main .project ul {
