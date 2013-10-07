@@ -877,10 +877,10 @@ textarea {
 /* line 1, ../_sass/typography.scss */
 body {
   background: #fff;
-  color: #666;
-  font-family: 'Lato','Open Sans','Merriweather', Georgia, serif;
-  font-size: 17px;
-  line-height: 24px;
+  color: #555;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 19px;
+  line-height: 26px;
   font-weight: 400;
 }
 
@@ -892,6 +892,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   margin: 40px 0 20px 0;
+  font-family: 'Volkhov',serif;
+  font-weight: 400;
 }
 
 /* Specifics */
@@ -909,7 +911,7 @@ h2 {
 
 /* line 20, ../_sass/typography.scss */
 h3 {
-  font-size: 27px;
+  font-size: 30px;
   line-height: 32px;
 }
 
@@ -936,7 +938,7 @@ h6 {
 /* ========================================================================= */
 /* line 29, ../_sass/typography.scss */
 a {
-  color: #e24825;
+  color: #008ce6;
   text-decoration: none;
 }
 
@@ -980,37 +982,35 @@ pre code {
 
 /* line 3, ../_sass/site.scss */
 .home-intro {
-  background: #f05722 url(/images/backgrounds/serrated-bottom-v1.png) repeat-x bottom;
-  background-size: 11px 4px;
-  padding: 48px 0 48px;
+  background: url(/images/avatar.png) no-repeat center 40px;
+  background-size: 128px 128px;
 }
 
-/* line 5, ../_sass/site.scss */
+/* line 4, ../_sass/site.scss */
+.home-intro .content {
+  padding: 48px 0 40px;
+  border-bottom: 3px double #eee;
+}
+
+/* line 6, ../_sass/site.scss */
 .home-intro h1 {
   text-align: center;
-  color: #fff;
-  font-weight: 700;
-  font-size: 48px;
-  margin: 0 0 6px 0;
-}
-/* line 6, ../_sass/site.scss */
-.home-intro p {
-  text-align: center;
-  color: #fff;
-  font-weight: 300;
-  font-size: 21px;
-  margin: 0 0 0 0;
+  font-size: 54px;
+  margin: 120px 0 6px 0;
 }
 /* line 7, ../_sass/site.scss */
-.home-intro .logo {
-  width: 76px;
-  height: 76px;
-  margin: 0 auto 12px;
+.home-intro p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 19px;
+  margin: 0 0 0 0;
+  color: #555;
 }
 /* line 8, ../_sass/site.scss */
-.home-intro .logo svg {
-  width: 76px;
-  height: 76px;
+.home-intro .avatar {
+  margin: 0 auto 12px;
+  vertical-align: middle;
+  display: block;
 }
 
 /* line 11, ../_sass/site.scss */
@@ -1020,42 +1020,43 @@ pre code {
 
 /* line 13, ../_sass/site.scss */
 .home-main h3 {
-  margin: 42px 0 12px 0;
+  margin: 51px 0 19px 0;
 }
 /* line 14, ../_sass/site.scss */
 .home-main h3:first-child {
-  margin-top: 28px;
+  margin-top: 21px;
 }
 /* line 15, ../_sass/site.scss */
 .home-main p {
-  margin: 0    0 12px 0;
+  margin: 0 0 18px 0;
 }
 /* line 17, ../_sass/site.scss */
 .home-main .project {
-  margin: 0 0 28px 0;
+  margin: 27px 0 28px 0;
 }
 /* line 18, ../_sass/site.scss */
 .home-main .project h4 {
-  margin: 0 0 3px  0;
+  margin: 0 0 4px 0;
+  font-size: 24px;
 }
 /* line 19, ../_sass/site.scss */
+.home-main .project p.sub {
+  color: #aaa;
+  margin: 0 0 12px 0;
+}
+/* line 20, ../_sass/site.scss */
 .home-main .project ul {
   margin: 0 0 24px 0;
 }
-/* line 20, ../_sass/site.scss */
+/* line 21, ../_sass/site.scss */
 .home-main .project p {
   margin: 0 0 8px  0;
 }
-/* line 21, ../_sass/site.scss */
-.home-main .project p.sub {
-  color: #bbb;
-}
 
 /* line 24, ../_sass/site.scss */
-.secondary {
-  background: #eeeeee url(/images/backgrounds/serrated-top-v1.png) repeat-x top;
-  background-size: 11px 4px;
-  padding-bottom: 72px;
+.secondary .content {
+  padding: 24px 0 72px;
+  border-top: 3px double #eee;
 }
 
 /* line 32, ../_sass/site.scss */

@@ -1,9 +1,9 @@
 body { 
   background: #fff;
-  color: #666;
-  font-family: 'Lato','Open Sans','Merriweather', Georgia, serif;
-  font-size: 17px;
-  line-height: 24px;
+  color: #555;
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 19px;
+  line-height: 26px;
   font-weight: 400;
 }
 
@@ -12,12 +12,12 @@ body {
 /* ========================================================================= */
 
         /* Universal */
-        h1,h2,h3,h4,h5,h6 { color: #222; margin: 40px 0 20px 0; }
+        h1,h2,h3,h4,h5,h6 { color: #222; margin: 40px 0 20px 0; font-family: 'Volkhov',serif; font-weight: 400; }
 
         /* Specifics */
         h1      { font-size: 54px; line-height: 60px; }
         h2      { font-size: 32px; line-height: 36px; }
-        h3      { font-size: 27px; line-height: 32px; }
+        h3      { font-size: 30px; line-height: 32px; }
         h4      { font-size: 20px; line-height: 24px; }
         h5      { font-size: 18px; line-height: 21px; }
         h6      { font-size: 18px; line-height: 21px; }
@@ -26,7 +26,7 @@ body {
 /* General Elements */
 /* ========================================================================= */
 
-        a           { color: #e24825; text-decoration: none; }
+        a           { color: #008ce6; text-decoration: none; }
 
         p           { margin: 32px 0 32px 0; }
         ul,ol,dl    { margin: 32px 0 32px 0; padding-left: 26px; }
