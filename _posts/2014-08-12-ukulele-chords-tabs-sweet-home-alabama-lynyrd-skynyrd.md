@@ -19,10 +19,10 @@ Here's how to play the ukulele chords used in this song.
 
 First, let's look at the beginning (and most distinctive) part of the riff, which is played as follows. Note! You'll likely want to follow this up with your preferred of the turnaround, which is tabbed in the next section.
 
-    A-|--------5--0----(0)--|-------5------------|---------2--0----|-
-    E-|---------------------|----------3----(3)--|-----------------|-
+    A-|--------5------------|-------5------------|---------2-------|-
+    E-|---------------------|--------------------|-----------------|-
     C-|---2--2--------------|--0--0--------------|--2--2-----------|- 
-    G-|---------------------|--------------------|-----------------|-
+    G-|-----------2----(2)--|----------0----(0)--|------------2----|-
           D                    C                    G 
 
 ### How to play the turnaround

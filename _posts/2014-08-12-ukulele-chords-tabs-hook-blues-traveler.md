@@ -26,7 +26,7 @@ The ukulele chords you'll need (in the order you'll need them) are as follows. A
 Here's the first stanza of the song shown in proper time with the chords. If you're just learning this, an important tip: you'll want to barre the 4th fret with your index finger for the 2nd, 3rd, and 4th chords in this 8-chord sequence (your middle- and -ring fingers will be used for the other notes in the chords). Also note the little riff you can do on the F#m and C# chords.
 
     A-|---0------------(2)-----------------4--4--7--4----4-----------|-
-    E-|---0-------------4------------------5-------------4--4--6--4--|-
+    E-|---0-------------4------------------5-------------4--4--7--4--|-
     C-|---1-------------4------------------6-------------5-----------|-
     G-|---2-------------4------------------x-------------6-----------|-
           A             E                 F#m            C# 
