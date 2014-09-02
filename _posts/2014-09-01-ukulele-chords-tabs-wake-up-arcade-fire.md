@@ -20,7 +20,7 @@ For easy reference, you can jump to these points in the recording to match the t
 
 - [00:11](#t=0m11s) Intro
 - [00:36](#t=0m36s) Bridge/Interlude
-- [01:01](#t=1m01s) Outro, part 1
+- [01:00](#t=1m00s) Outro, part 1
 - [01:42](#t=1m42s) Outro, part 2
 
 ## Intro
