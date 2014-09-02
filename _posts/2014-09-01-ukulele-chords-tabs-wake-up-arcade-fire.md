@@ -82,7 +82,7 @@ One key tip I have: for the Eb chord, keep your ring finger on the 3rd string (t
 
      -|---3----0---x---3----|-
      -|---1----1---3---0----|-
-     -|---0----0---0---0----|-    ...begin outdo, stay on C
+     -|---0----0---0---0----|-    ...begin outro, stay on C
      -|---2----2---2---0----|-
                        C 
       "...touches  my  hand"
