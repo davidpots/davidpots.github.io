@@ -1,4 +1,14 @@
-name: "davidpots"
-highlighter: true
-permalink: /blog/:title
-auto: true # this is done b/c he told me to http://wolfslittlestore.be/2012/08/html-includes-with-jekyll/
+# Site settings
+title: davidpots.com // Personal homepage for David Potsiadlo
+email: davidpots@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://davidpot.com" # the base hostname & protocol for your site
+twitter_username: davidpots
+github_username:  davidpots
+
+# Build settings
+markdown: kramdown
