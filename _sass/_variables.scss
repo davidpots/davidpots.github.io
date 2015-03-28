@@ -1,0 +1,58 @@
+//  ----------------------------------------------------------------------------
+//  Type
+//  ----------------------------------------------------------------------------
+
+        $font-family--default:    Roboto, Helvetica, sans-serif;
+        $font-family--monospace:  Consolas, Courier, monospace;
+
+        $font-weight--normal:     400;
+        $font-weight--strong:     700;
+
+        $font-size--xxxlarge:     3rem;
+        $font-size--xxlarge:      2.5rem;
+        $font-size--xlarge:       1.5rem;
+        $font-size--large:        1.25rem;
+        $font-size--normal:       1rem;
+        $font-size--small:        .875rem;
+        $font-size--xsmall:       .750rem;
+
+        $line-height--normal:     1.4;
+        $line-height--heading:    1.2;
+
+        $font-color--default:     $gray;
+        $font-color--strong:      $gray-dark;
+        $font-color--weak:        $gray-light;
+
+//  ----------------------------------------------------------------------------
+//  Spacing & Breakpoints
+//  ----------------------------------------------------------------------------
+
+        // Default whitespace unit
+        $space: 1rem;
+
+        // Breakpoints
+        $breakpoint--mobile: 32em; // 512px
+        $breakpoint--desktop: 36em;
+
+        // Grid
+        $grid--max-width: 36rem;
+        $grid--gutter: 1.5 * $space;
+
+        // Spacing (for margin & padding)
+        $space--xxxlarge:       4rem;
+        $space--xxlarge:        3rem;
+        $space--xlarge:         2rem;
+        $space--large:          1.5rem;
+        $space--medium:         1rem;
+        $space--small:          .5rem;
+        $space--xsmall:         .25rem;
+        $space--xxsmall:        .125rem;
+        $space--none:           0rem;
+
+//  ----------------------------------------------------------------------------
+//  Borders
+//  ----------------------------------------------------------------------------
+
+        $border-color:  $gray;
+        $border-width:  1px;
+        $border-radius: .25rem;

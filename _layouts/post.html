@@ -2,20 +2,41 @@
 layout: default
 ---
 
-<div class="section">
-  <div class="content">
+<div class="bg-color-primary mbl">
+  <div class="container">
+    <div class="row">
+      <div class="col">
 
-    <p style="margin: 0;"><a href="http://davidpots.com">&laquo; back to davidpots.com</a></p>
+        <p class="pvm man"><a class="white no-underline" href="/">&larr; davidpots.com</a></p>
 
-    <h1 style="margin-bottom: 15px;">{{ page.title }}</h1>
-    <p class="meta" style="margin: 0; font-weight: 300; font-style: italic; color: #aaa;">{{ page.date | date: "%B %e, %Y" }}</p>
-
-    <div class="post">
-    {{ content }}
+      </div>
     </div>
+  </div>
+</div>
 
-    <hr />
-    <p><a href="http://davidpots.com">&laquo; back to davidpots.com</a></p>
+<div class="container">
+  <div class="row">
+    <div class="col">
 
-  </div> <!-- .content -->
-</div> <!-- .section -->
+      <p class="mbs gray-light">{{ page.date | date: "%B %e, %Y" }}</p>
+      <h1 class="mtn">{{ page.title }}</h1>
+
+      <div class="post">
+        {{ content }}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="bg-color-primary mtl">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+        <p class="pvm man"><a class="white no-underline" href="/">&larr; davidpots.com</a></p>
+
+      </div>
+    </div>
+  </div>
+</div>
