@@ -62,6 +62,11 @@
         h6, .h6 {
           font-size: $font-size--normal;
         }
+        
+        @media (max-width: $breakpoint--mobile) {
+          .m-h2 { font-size: $font-size--xlarge * 1.5; }
+          .m-h4 { font-size: $font-size--normal; }
+        }
 
         .small    { font-size: $font-size--small; }
         .smaller  { font-size: $font-size--xsmall; }

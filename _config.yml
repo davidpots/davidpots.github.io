@@ -12,3 +12,7 @@ github_username:  davidpots
 
 # Build settings
 markdown: kramdown
+
+collections:
+  projects:
+    output: true
