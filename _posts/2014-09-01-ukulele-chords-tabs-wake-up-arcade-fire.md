@@ -12,7 +12,7 @@ A terrific song. What I'm most interested in capturing are not only the chords, 
 Here's a clip of me playing this on ukulele, using the exact tabs I have below.
 
 <audio controls>
-  <source src="http://fireflygrove.com/audio/20140901-arcade-fire-wake-up-ukulele.m4a" type="audio/mpeg">
+  <source src="/audio/20140901-ukulele-arcade-fire-wake-up.m4a" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
