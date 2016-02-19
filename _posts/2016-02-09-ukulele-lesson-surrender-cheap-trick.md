@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Guitar lesson for 'Surrender' by Cheap Trick"
+title:  "Ukulele lesson for 'Surrender' by Cheap Trick"
 date:   2016-02-09 22:22:22
 categories: ukulele music
 ---
