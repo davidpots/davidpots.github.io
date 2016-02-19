@@ -7,11 +7,7 @@ categories: ukulele music
 
 ## Notes
 
-...
-
-## Audio of me playing
-
-...
+Here's my ukulele arrangement of this song. Since you only have four strings to work with, I'm forsaking a lot of the interesting bass-note work he does the piano. I just wanted to state that in case you apply these chords to another instrument (in which case they may be frustrating abbreviated). Just the same, enjoy!
 
 ## Verse, part 1
 
