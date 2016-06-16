@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ukulele lesson for the Blank Slate by Taylor Swift"
+title:  "Ukulele lesson for the Blank Space by Taylor Swift"
 date:   2016-06-13 01:22:22
 categories: ukulele music
 ---
