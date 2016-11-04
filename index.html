@@ -58,7 +58,7 @@ title: David Potsiadlo // Product Design and Development
       {% endfor %}
 
       <h3 class="mtxxxl h2">Other projects</h3>
-      {% assign reg_projects = site.projects | where:'category',nil %}
+      {% assign reg_projects = site.projects | where:'category','other' %}
       {% for project in reg_projects %}
       <div class="mbxl">
         <h2 class="mtn mbxxs"><a href="{{project.website}}">{{project.title}}</a></h2>
