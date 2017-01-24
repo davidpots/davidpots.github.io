@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Guitar lesson for City of Stars from La La Land (easy guitar chords)"
+title: "Guitar lesson for City of Stars from La La Land (strum along version)"
 date: 2017-01-23
 categories: guitar music
 ---
 
 ## Video lesson
 
-Coming soon.
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/N2F7EJxt2YI" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/caBDotrfiLc" frameborder="0" allowfullscreen></iframe>
 
 ## About this lesson
 
