@@ -239,3 +239,7 @@ And if you want to spice it up, add some up-strums on the off-beat just before t
                 We'll keep pushing 'til it's understood
                           G              A           D       G  A
                 And these Badlands start treating us good
+
+## Thanks for reading!
+
+I sincerely hope this was helpful. If you have any questions or comments, don't hesitate to let me know.
