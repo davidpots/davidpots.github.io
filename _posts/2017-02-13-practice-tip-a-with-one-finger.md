@@ -9,7 +9,7 @@ categories: guitar music
 
 Here's my video presentation of everything covered further down on the page. If you're curious how something sounds (or want to see what something looks like), check out this video!
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/__________" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wUrKhHAT0Fk" frameborder="0" allowfullscreen></iframe>
 
 ## How to play the A-chord with one finger
 
