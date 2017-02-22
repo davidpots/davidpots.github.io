@@ -7,11 +7,7 @@ categories: guitar music
 
 ## Video lesson
 
-<!-- Here's a cover of me playing the song from beginning to end:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u8-24OnUle8" frameborder="0" allowfullscreen></iframe>
-
-Stay tuned to my YouTube channel, for I'll soon be posting a video lesson where I break down how I play the entire song (chords, strumming pattern, runs/fills, etc). -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LEGDHnUEFH0" frameborder="0" allowfullscreen></iframe>
 
 ## Capo on 3rd fret
 
