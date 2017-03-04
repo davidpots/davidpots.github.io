@@ -7,8 +7,11 @@ categories: ukulele music
 
 ## Video lesson
 
-Coming soon.
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/LEGDHnUEFH0" frameborder="0" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TfAj8Txz238" frameborder="0" allowfullscreen></iframe>
+
+## About this song
+
+Obviously, this is a song you typically hear played on the guitar -- but while learning it on guitar, I happened to be going through a ukulele phase and couldn't help but figure it out on that instrument too. I figured, why not share what I'd learned! I find it's a bit simpler on the ukulele: lots of little embellishments I add while playing on the guitar aren't needed (or aren't even practically possible) on the ukulele -- so it makes for a nice cut and dry song. You only need five chords.
 
 ## Chords you'll need
 
@@ -17,6 +20,15 @@ Coming soon.
     C ||––––2––––2––––1––––2–––––4––––
     G ||––––2––––0––––2––––4–––––0––––
             D    G    A    Bm    Em
+
+## Strumming pattern
+
+I would start with four simple down strums, one on each beat (and repeat that). If you want to get a little bit spicier, I recommend this -- where the accents come on beats 2 and 4.
+
+            >               >   
+    ↓   ↓   ↓   ↓ ↑ ↓   ↓   ↓   ↓ ↑
+    1   +   2   +   3   +   4   +   
+
 
 ## Lyrics with chords
 
