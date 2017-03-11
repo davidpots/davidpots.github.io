@@ -11,7 +11,11 @@ Here's a cover of me playing the song from beginning to end:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u8-24OnUle8" frameborder="0" allowfullscreen></iframe>
 
-Stay tuned to my YouTube channel, for I'll soon be posting a video lesson where I break down how I play the entire song (chords, strumming pattern, runs/fills, etc).
+My beginner lesson, focusing on chords and strumming:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dG9WdrqvgYA" frameborder="0" allowfullscreen></iframe>
+
+For an intermediate lesson showing some of the runs and fills, stay tuned! It's coming soon.
 
 ## Chords needed
 
@@ -152,8 +156,69 @@ Repeat this as desired (usually two or four times is what I do). If you prefer, 
 
 ## Other riffs and fills
 
-Coming soon! In the next few weeks (by end of February 2017) I'll be recording a video breaking down the chords, strumming patterns, and the various other runs and riffs and fills I play in my play-through cover version. Stay tuned.
+### Verse melody
+
+If you want to emulate the vocal melody with your guitar while staying in the open E and open A positions, focus on these notes. You can strum along if you're able to do so (though that's a bit trickier).
+
+    E ––––––––––––––––––––––––––––––––––––––––|–––0––––––
+    B –––3––3––2–2–––0–0––––––––––––––––––––––|–––3––––––
+    G –––1––––––––––––––––2–2–––1–2–1–––––––––|–––1––––––
+    D –––2–––––––––––––––––––––––––––––/4––2––|–––2––––––
+    A –––2––––––––––––––––––––––––––––––––––––|–––2––––––
+    E –––0––––––––––––––––––––––––––––––––––––|–––0––––––
+         E                                        E7
+
+    E ––––––––––––––––––––––––––––––––––––––––|–––0––––––
+    B –––2–––2––0––0––––––––––––––––––––––––––|–––2––––––
+    G –––2––––––––––––––2––2–––––2––2––––0––––|–––0––––––
+    D –––2––––––––––––––––––––––––––––––––––––|–––2––––––
+    A –––0––––––––––––––––––––––––––––––––––––|–––0––––––
+    E ––––––––––––––––––––––––––––––––––––––––|––––––––––
+         A                                        A7
+
+### Verse walkdown
+
+"Look around you all you see are sympathetic eyes..."
+
+    E –––––––––––––––––––––––––––––––––––––––––––––––––––
+    B –––––1––––––0––––––3~~~~~~~~~~~––––3–––1–––––––––––
+    G –––––0––––––0––––––2–––––––––––––––––––2–––––––––––
+    D –––––2––––––0––––––2–––––––––––––––––––2–––––––––––
+    A –––3––––––2––––––0–––––––––––––––––––––0–––––––––––
+    E –––––––––––––––––––––––––––––––––––––––––––––––––––
+         C     G/B     Am(sus4)              Am                 
+
+### Chrous walkdowns
+
+High level, this:
+
+    E ––(0)–––––––––––––––––––––––(2)––––––––––––––––––––
+    B –––1–––––1–––––1–––––1–––––––3––––3–––––3–––––3––––
+    G –––0–––––0–––––2–––––0–––––––2––––2–––––2–––––2––––
+    D –––2–––––0–––––2–––––2–––––––0––––0–––––0–––––0––––
+    A –––3–––––2–––––0––––––––––––––––––3–––––2–––––0––––
+    E –––––––––––––––––––––3–––––––––––––––––––––––––––––
+         C    C/B    Am   C/G      D   D/C   D/B   D/A
+
+Specifically:
+
+    E –––––––––––––––––––––––––––––––––––––––––––––––––––
+    B –––––1–––––––1–––––––1–––––––1–––––––––––––––––––––
+    G –––––0–––––––0–––––––2–––––––0–––––––––––––––––––––
+    D –––––2–––––––0–––––––2–––––––2–––––––––––––––––––––
+    A –––3–––––––2–––––––0–––––––––––––––––––––––––––––––
+    E –––––––––––––––––––––––––––3–––––––––––––––––––––––
+         C      C/B      Am      C/G                      
+
+    E –––––––––––––––––––––––––––––––––––––––––––––––––––
+    B –––––3–––––––3–––––––3–––––––3–––––––––––––––––––––
+    G –––––2–––––––2–––––––2–––––––2–––––––––––––––––––––
+    D –––0–––––––––0–––––––0–––––––0–––––––––––––––––––––
+    A –––––––––––3–––––––2–––––––0–––––––––––––––––––––––
+    E –––––––––––––––––––––––––––––––––––––––––––––––––––
+         D       D/C     D/B     D/A
+
 
 ## Thanks for reading!
 
-I hope this was helpful. Please don't hesitate to hit me up with any questions you have.
+I hope this was helpful! Please don't hesitate to hit me up with any questions you have. And as always, please let me know what other songs from Simon and Garfunkel you might want to hear lessons for. Have a great day!
