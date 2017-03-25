@@ -7,9 +7,7 @@ categories: guitar music
 
 ## Video lesson
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/IkG_FCZ-s4g" frameborder="0" allowfullscreen></iframe> -->
-
-Coming soon.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h_Ac0xIfsII" frameborder="0" allowfullscreen></iframe>
 
 ## Chord progressions
 
