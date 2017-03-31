@@ -1,17 +1,13 @@
 ---
 layout: post
 title: "Guitar lesson for Highwayman by The Highwaymen"
-date: 2017-03-06
-categories: ukulele music
+date: 2017-03-31
+categories: guitar music
 ---
 
 ## Video lesson
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/TfAj8Txz238" frameborder="0" allowfullscreen></iframe> -->
-
-## About this song
-
-...
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xqN0TTM0brs" frameborder="0" allowfullscreen></iframe>
 
 ## Chords you'll need
 
