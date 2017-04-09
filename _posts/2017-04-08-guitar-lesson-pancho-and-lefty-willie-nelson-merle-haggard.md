@@ -39,7 +39,7 @@ Chorus:
 ## Lyrics w/ chords
 
     D                                A
-    ...Living on the road my friend... was gonna keep you free and clean
+    ...Living on the road my friend... was gonna keep you free and clean 
     G                                        D                            A
     ...And now you wear your skin like iron... and your breath as hard as kerosene
 
