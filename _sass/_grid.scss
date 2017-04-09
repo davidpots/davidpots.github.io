@@ -13,8 +13,8 @@
             max-width: $grid--max-width;
             margin-right: auto;
             margin-left: auto;
-            padding-left: $grid--gutter/2;
-            padding-right: $grid--gutter/2;
+            padding-left: $grid--gutter;
+            padding-right: $grid--gutter;
             box-sizing: border-box;
           }
 
@@ -27,7 +27,7 @@
             margin-left: 0;
             margin-right: 0;
           }
-          
+
           // Centered single columns
           .container--col-10 {
             max-width: (10/12 * ($grid--max-width + $grid--gutter)) - $grid--gutter;
