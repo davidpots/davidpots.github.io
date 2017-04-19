@@ -9,17 +9,7 @@ categories: guitar music
 
 Coming soon!
 
-## Capo on the 5th fret?
-
-With a capo on the 5th fret, you'll need these chords:
-
-    E ––––0–––1–––3–––0––––
-    B ––––1–––1–––0–––1––––
-    G ––––0–––2–––0–––2––––
-    D ––––2–––3–––0–––2––––
-    A ––––3–––3–––2–––0––––
-    E ––––––––1–––3––––––––
-          C   F   G   Am
+## Capo and chords needed
 
 Without a capo, this song is in the key of F. Here's a map of the chords you'd need, depending on where you used a capo (if at all):
 
@@ -31,6 +21,16 @@ Without a capo, this song is in the key of F. Here's a map of the chords you'd n
     Capo 5    C   F   G   Am
     Capo 8    A   D   E   F#m
 
+Playing in the key of F can, quite frankly, suck. So many barre chords. Instead, let's do it with a capo on the 5th fret. With a capo on the 5th fret, you'll need these chords:
+
+    E ––––0–––1–––3–––0––––
+    B ––––1–––1–––0–––1––––
+    G ––––0–––2–––0–––2––––
+    D ––––2–––3–––0–––2––––
+    A ––––3–––3–––2–––0––––
+    E ––––––––1–––3––––––––
+          C   F   G   Am
+
 ## Chord progression
 
 Essentially, the entire song uses these two progressions, played in sequence (and then repeating them both). You're always moving from F to G to Am, and for the final chord of each sequence either going back to G, or moving to C. When listening along to the recorded version of the song by The Chainsmokers, you really only hear this through the bass note (since there isn't a proper guitar).
@@ -40,7 +40,6 @@ Essentially, the entire song uses these two progressions, played in sequence (an
 
 
 ## Strumming pattern and timing
-
 
 Timing matters! Note how when you switch the second chord of each measure, you're switching on the "3 +" and not the "3". It sounds as if you're switching late, or early – depending on how you listen. This is a very characteristic sound in many of The Chainsmokers songs. Note, I'm only showing the first progression here (F-G-Am-G), but apply everything I'm saying equally to the F-G-Am-C progression too.
 
