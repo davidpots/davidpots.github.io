@@ -7,7 +7,7 @@ categories: guitar music
 
 ## Video lesson
 
-Coming soon!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cjBxw8wuE-E" frameborder="0" allowfullscreen></iframe>
 
 ## Capo and chords needed
 
