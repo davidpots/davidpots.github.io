@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guitar lesson for Wish You Were Here by Pink Floyd"
-date: 2017–05–05
+date: 2017-05-05
 categories: guitar music
 ---
 
