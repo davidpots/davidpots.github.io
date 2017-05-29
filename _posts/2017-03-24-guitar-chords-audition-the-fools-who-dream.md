@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Guitar lesson for Audition (The Fools Who Dream) from La La Land / Emma Watson"
+title: "Guitar lesson for Audition (The Fools Who Dream) from La La Land / Emma Stone"
 date: 2017-03-24
 categories: guitar music
 ---
