@@ -9,9 +9,9 @@ categories: guitar music
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/jROWArwvnnI" frameborder="0" allowfullscreen></iframe> -->
 
-## Editor's notes
+<!-- ## Editor's notes -->
 
-...
+Coming soon!
 
 ## Chords needed
 
@@ -37,22 +37,28 @@ Pretty much the entire song uses this riff. You're on each of these chords for a
     E –|––0––––––––––––|–––––––––––––––|–––––––––––––––|––0––––––––––––|–
           E               C#m             A               E
 
+Understand that for each chord above, your left hand should be in the normal position for that chord -- but on your picking hand, your fingers are only targeting the strings that need to be played.
 
-    E ––––––––
-    B ––––––––
+    E ––(0)–––
+    B ––(0)–––
     G –––1––––  <-- right middle finger
     D –––2––––  <-- right index finger
-    A ––––––––
+    A ––(2)–––
     E –––0––––  <-- right thumb
          E            
 
+## Bridge chords
 
+You'll also need an F#m and B chords for the bridge (in addition to a C#m, which is shown above). Use the same strumming / fingerpicking approach shown above for those chords. If you can't play a regular B, you can sub in a B7.
 
+    –––2––––2––––2––––
+    –––2––––4––––0––––
+    –––2––––4––––2––––
+    –––4––––4––––1––––
+    –––4––––2––––2––––
+    –––2––––––––––––––
+      F#m   B    B7
 
-–––2––––2–––
-–––2––––4–––
-–––2––––4–––
-–––4––––4–––
-–––4––––2–––
-–––2––––––––
-  F#m   B   
+## That's it!
+
+I hope this was helpful! This is a fun song -- and that single progression isn't a ton to memorize. Enjoy.
