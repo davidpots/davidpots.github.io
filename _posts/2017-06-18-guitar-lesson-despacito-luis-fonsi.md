@@ -9,7 +9,7 @@ categories: guitar music
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kK6w56i4C1M" frameborder="0" allowfullscreen></iframe>
 
-## Capo or not capo?
+## One 4-chord progression for the entire song!
 
 This entire song uses a single 4-chord progression, repeating over and over. This makes things super simple to memorize, since you don't need to remember something different for the verse vs. chorus vs. intro, etc. A choice you'll have to make is whether or not you use a capo. If you don't use a capo, you'll need to play one barre chord (B minor). You could use a capo on the 2nd or 7th fret -- the latter allowing you to play the progression using no capo. This can be handy if you don't know barre chords yet.
 
@@ -57,8 +57,8 @@ Chord progression used if you use *capo on 7nd fret*:
 
 ## Intro tab?
 
-    To be honest, this isn't something I've been able to learn -- it certainly requires a level of skill that's in the intermediate/advanced range when it comes to fret pull-offs. To be honest, this isn't something I'm too great at! Best of luck working it out though -- check YouTube, because there are definitely some good tutorials out there.
+To be honest, this isn't something I've been able to learn -- it certainly requires a level of skill that's in the intermediate/advanced range when it comes to fret pull-offs. To be honest, this isn't something I'm too great at! Best of luck working it out though -- check YouTube, because there are definitely some good tutorials out there.
 
 ## Good luck!
 
-    I hope this helps! Let me know if you have any questions, comments, or feedback.
+I hope this helps! Let me know if you have any questions, comments, or feedback.
