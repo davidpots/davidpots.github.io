@@ -21,7 +21,7 @@ Chord progression used if you use *capo on 2nd fret*:
 
     Am . . . F . . . C . . . G . . .
 
-Chord progression used if you use *capo on 7nd fret*:
+Chord progression used if you use *capo on 7th fret*:
 
     Em . . . C . . . G . . . D . . .
 
