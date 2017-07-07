@@ -13,7 +13,7 @@ categories: guitar music
 
 Coming soon!
 
-## Chords needed
+## Chords needed for 99% of the song
 
 You'll need to be able to play these chords. The C#m is most certainly going to the hardest of these, especially if you've never played barre chords before. If this vexes you, stay tuned -- you can likely fake your way through the song and pull off the C#m without barring the full 4th fret.
 
@@ -27,7 +27,7 @@ You'll need to be able to play these chords. The C#m is most certainly going to 
 
 ## Main progression
 
-Pretty much the entire song uses this riff. You're on each of these chords for a single measure (4 counts!), but what makes things interesting is
+Pretty much the entire song uses this riff. You're on each of these chords for a single measure (basically 4 counts), but what makes things interesting is how you're only plucking 3 of the stirngs for each chord.
 
     E –|–––––––––––––––|––––––––(4)––––|–––––––––––––––|––––––––––(0)––|–
     B –|–––––––––––––––|––5––––––––––––|––2––0–––––––––|––0––––––––––––|–
@@ -37,15 +37,49 @@ Pretty much the entire song uses this riff. You're on each of these chords for a
     E –|––0––––––––––––|–––––––––––––––|–––––––––––––––|––0––––––––––––|–
           E               C#m             A               E
 
-Understand that for each chord above, your left hand should be in the normal position for that chord -- but on your picking hand, your fingers are only targeting the strings that need to be played.
+Understand that for each chord above, your left hand should be in the normal position for that chord:
+
+    E –|––0––––––––––––|––4––––––––––––|––0––––––––––––|––0––––––––––––|–
+    B –|––0––––––––––––|––5––––––––––––|––2––––––––––––|––0––––––––––––|–
+    G –|––1––––––––––––|––6––––––––––––|––2––––––––––––|––1––––––––––––|–
+    D –|––2––––––––––––|––6––––––––––––|––2––––––––––––|––2––––––––––––|–
+    A –|––2––––––––––––|––4––––––––––––|––0––––––––––––|––2––––––––––––|–
+    E –|––0––––––––––––|–––––––––––––––|–––––––––––––––|––0––––––––––––|–
+          E               C#m             A               E
+
+ But on your picking hand, your fingers are only targeting the strings that need to be played.
+
+ For the E,
 
     E ––(0)–––
     B ––(0)–––
-    G –––1––––  <-- right middle finger
-    D –––2––––  <-- right index finger
-    A ––(2)–––
-    E –––0––––  <-- right thumb
-         E            
+    G –––1––––  <-- right middle finger   
+    D –––2––––  <-- right index finger    
+    A ––(2)–––                            
+    E –––0––––  <-- right thumb           
+         E      
+
+For the C#m,
+
+    E ––(4)–––
+    B –––5––––  <-- right middle finger   
+    G –––6––––  <-- right index finger    
+    D ––(6)–––                            
+    A –––4––––  <-- right thumb           
+    E ––––––––
+        C#m   
+
+For the A,
+
+    E ––(0)–––
+    B –––2––––  <-- right middle finger   
+    G –––2––––  <-- right index finger    
+    D ––(2)–––                            
+    A –––0––––  <-- right thumb           
+    E ––––––––
+         A  
+
+And so on. Feel free to slightly deviate from these tabs if you wish (it sounds like Micahel Tyler does from time to time).
 
 ## Bridge chords
 
