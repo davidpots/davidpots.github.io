@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Stairway to Heaven by Led Zeppelin"
 date: 2017-05-13
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/led-zeppelin-stairway-to-heaven/
 ---
 
 ## Video lesson

@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for It Ain't Me by Kygo w/ Selena Gomez"
 date: 2017-05-13
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/kygo-ft-selena-gomez-it-aint-me/
 ---
 
 ## Video lesson

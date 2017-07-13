@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Meet Me In The Hallway by Harry Styles"
 date: 2017-05-24
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/harry-styles-meet-me-in-the-hallway/
 ---
 
 ## Video lesson

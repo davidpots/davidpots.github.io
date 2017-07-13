@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Stay by Zedd & Alessia Cara"
 date: 2017-05-03
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/zedd-ft-alessia-cara-stay/
 ---
 
 ## Video lesson

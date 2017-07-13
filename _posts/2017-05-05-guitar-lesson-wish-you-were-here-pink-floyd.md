@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Wish You Were Here by Pink Floyd"
 date: 2017-05-05
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/pink-floyd-wish-you-were-here/
 ---
 
 ## Video lesson

@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Go Flex by Post Malone"
 date: 2017-05-09
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/post-malone-go-flex/
 ---
 
 ## Video lesson
