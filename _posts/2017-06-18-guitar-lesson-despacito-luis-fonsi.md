@@ -3,6 +3,8 @@ layout: post
 title: "Guitar lesson for Despacito by Luis Fonsi ft. Justin Bieber"
 date: 2017-06-18
 categories: guitar music
+redirect_to:
+  - http://playsongnotes.com/songs/luis-fonsi-despacito/
 ---
 
 ## Video lesson
