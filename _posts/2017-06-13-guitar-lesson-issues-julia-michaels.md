@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Issues by Julia Michaels (acoustic)"
 date: 2017-06-13
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/julia-michaels-issues/
 ---
 
 ## Video lesson

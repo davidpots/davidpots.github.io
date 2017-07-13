@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Highwayman by The Highwaymen"
 date: 2017-03-31
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/highwaymen-highwayman/
 ---
 
 ## Video lesson

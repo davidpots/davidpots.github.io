@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for I'm The One by DJ Khaled"
 date: 2017-07-03
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/dj-khaled-i-m-the-one/
 ---
 
 ## Video lesson

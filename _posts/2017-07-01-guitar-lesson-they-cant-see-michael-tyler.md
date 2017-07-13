@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for They Can't See by Michael Tyler"
 date: 2017-07-01
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/michael-tyler-they-can-t-see/
 ---
 
 ## Video lesson

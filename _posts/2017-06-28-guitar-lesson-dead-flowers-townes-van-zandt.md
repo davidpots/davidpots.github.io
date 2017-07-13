@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Dead Flowers as covered by Townes Van Zandt"
 date: 2017-06-28
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/townes-van-zandt-dead-flowers/
 ---
 
 ## Video lesson

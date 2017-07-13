@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for 2U by David Guetta w/ Justin Beiber"
 date: 2017-06-09
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/david-guetta-2u/
 ---
 
 ## Video lesson

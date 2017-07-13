@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Uh Huh by Julia Michaels"
 date: 2017-06-07
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/julia-michaels-uh-huh/
 ---
 
 ## Video lesson
