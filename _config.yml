@@ -16,3 +16,6 @@ markdown: kramdown
 collections:
   projects:
     output: true
+
+gems:
+  - jekyll-redirect-from
