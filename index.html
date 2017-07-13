@@ -71,7 +71,13 @@ title: David Potsiadlo // Product Design and Development
       <h3 class="mtxxxl h2">Writing</h3>
       <p>Here is a collection of occasional blog posts &amp; random snippets I've written in the past. Many of the front-end posts below are aimed toward those initially exploring the world of rapid prototyping using Rails, Git, Heroku, Jekyll, etc.</p>
       {% for post in site.posts %}
-      <p><a href="{{ post.url }}">{{ post.title }}</a><br />{{ post.date | date: "%B %e, %Y" }}</p>
+        {% if post.redirected == "true" %}
+          <!-- do nothing, since this page has a permanent redirect -->
+        {% else if %}
+          <p><a href="{{ post.url }}">{{ post.title }}</a><br />{{ post.date | date: "%B %e, %Y" }}</p>
+        {% endif %}
+
+
       {% endfor %}
 
     </div>
