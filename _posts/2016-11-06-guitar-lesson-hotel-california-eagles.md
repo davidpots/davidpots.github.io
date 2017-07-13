@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Hotel California by The Eagles"
 date: 2016-11-09
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/eagles-hotel-california/
 ---
 
 ## Video lesson

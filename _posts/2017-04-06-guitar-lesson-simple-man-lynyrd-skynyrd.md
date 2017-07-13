@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Simple Man by Lynyrd Skynyrd"
 date: 2017-04-06
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/lynyrd-skynyrd-simple-man/
 ---
 
 ## Video lesson
