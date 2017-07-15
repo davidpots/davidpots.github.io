@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Badlands from Bruce Springsteen (acoustic)"
 date: 2017-02-04
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/bruce-springsteen-badlands/
 ---
 
 ## Video lesson

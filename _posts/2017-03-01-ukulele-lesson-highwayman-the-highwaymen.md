@@ -3,6 +3,10 @@ layout: post
 title: "Ukulele lesson for Highwayman by The Highwaymen"
 date: 2017-03-01
 categories: ukulele music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/highwaymen-highwayman/
 ---
 
 ## Video lesson
