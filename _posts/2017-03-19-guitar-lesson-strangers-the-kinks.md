@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Strangers by The Kinks"
 date: 2017-03-19
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/kinks-strangers/
 ---
 
 ## Video lesson

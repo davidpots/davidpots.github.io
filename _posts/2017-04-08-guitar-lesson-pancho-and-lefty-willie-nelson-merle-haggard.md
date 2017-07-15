@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Pancho and Lefty by Willie Nelson and Merle Haggard"
 date: 2017-04-08
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/willie-nelson-and-merle-haggard-pancho-and-lefty/
 ---
 
 ## Video lesson
