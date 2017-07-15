@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Audition (The Fools Who Dream) from La La Land / Emma Stone"
 date: 2017-03-24
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/la-la-land-audition-the-fools-who-dream/
 ---
 
 ## Video lesson

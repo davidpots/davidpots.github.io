@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for A Lovely Night from La La Land"
 date: 2017-02-21
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/la-la-land-a-lovely-night/
 ---
 
 ## Video lesson

@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Mary by Sublime"
 date: 2017-02-09
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/sublime-mary/
 ---
 
 ## Video lesson

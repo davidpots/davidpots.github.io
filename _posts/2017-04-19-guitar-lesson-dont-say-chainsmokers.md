@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Don't Say by The Chainsmokers"
 date: 2017-04-19
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/chainsmokers-don-t-say/
 ---
 
 ## Video lesson

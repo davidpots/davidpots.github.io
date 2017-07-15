@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Someone in the Crowd from La La Land"
 date: 2017-02-05
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/la-la-land-someone-in-the-crowd/
 ---
 
 ## Video lesson

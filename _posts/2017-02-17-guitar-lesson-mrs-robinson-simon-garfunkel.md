@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Mrs. Robinson by Simon and Garfunkel"
 date: 2017-02-17
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/simon-and-garfunkel-mrs-robinson/
 ---
 
 ## Video lesson

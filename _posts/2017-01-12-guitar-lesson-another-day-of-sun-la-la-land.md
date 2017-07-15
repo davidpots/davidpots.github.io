@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Another Day of Sun from La La Land (easy guitar chords)"
 date: 2017-01-12
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/la-la-land-another-day-of-sun/
 ---
 
 ## Video lesson

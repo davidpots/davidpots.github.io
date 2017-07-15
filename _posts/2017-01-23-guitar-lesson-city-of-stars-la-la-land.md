@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for City of Stars from La La Land (strum along version)"
 date: 2017-01-23
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/la-la-land-city-of-stars/
 ---
 
 ## Video lesson

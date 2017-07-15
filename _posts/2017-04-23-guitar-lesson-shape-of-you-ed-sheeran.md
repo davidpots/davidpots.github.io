@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Shape of You by Ed Sheeran"
 date: 2017-04-23
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/ed-sheeran-shape-of-you/
 ---
 
 ## Video lesson
