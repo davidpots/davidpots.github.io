@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Say It Ain't So by Weezer"
 date: 2016-07-23
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/weezer-say-it-ain-t-so/
 ---
 
 ## Video Lesson

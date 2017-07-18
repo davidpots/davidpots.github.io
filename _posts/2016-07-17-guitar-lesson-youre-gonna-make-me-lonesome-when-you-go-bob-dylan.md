@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for You're Gonna Make Me Lonesome When You Go by Bob Dylan"
 date: 2016-07-17
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/bob-dylan-you-re-gonna-make-me-lonesome-when-you-go/
 ---
 
 ## Video Lesson

@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Freeway Time in LA County Jail by Sublime"
 date: 2016-10-16
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/sublime-freeway-time-la-county-jail/
 ---
 
 ## Video Lesson
@@ -229,7 +233,7 @@ On this chord, I'll mellow thins out again (return to all down strums, perhaps).
             A7
 
     "Hold me babe, new stylee..."
-    
+
     E ||–––––––––––––––––––––––––––––––––––––––––––
     B ||–––––––––––––––––––––––––––––––––––––––––––
     G ||–––––––––––––––––––––––––––––––––––––––––––

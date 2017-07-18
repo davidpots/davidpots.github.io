@@ -3,6 +3,10 @@ layout: post
 title:  "Guitar lesson for the Kodachrome by Paul Simon"
 date:   2016-05-28 01:22:22
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/paul-simon-kodachrome/
 ---
 
 ## Video Lesson

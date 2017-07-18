@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Apple Blossom by The White Stripes"
 date: 2016-10-23
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/white-stripes-apple-blossom/
 ---
 
 ## Video lesson

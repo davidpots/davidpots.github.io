@@ -3,6 +3,10 @@ layout: post
 title:  "Ukulele lesson for the Margaritaville by Jimmy Buffett"
 date:   2016-05-21 01:22:22
 categories: ukulele music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/jimmy-buffett-margaritaville/
 ---
 
 ## Video lesson

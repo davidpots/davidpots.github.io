@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for True Colors by Cyndi Lauper (as covered by Justin Timberlake)"
 date: 2016-11-29
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/justin-timberlake-and-anna-kendrick-true-colors/
 ---
 
 ## Video lesson

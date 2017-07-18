@@ -3,6 +3,10 @@ layout: post
 title:  "Ukulele lesson for the Blank Space by Taylor Swift"
 date:   2016-06-13 01:22:22
 categories: ukulele music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/taylor-swift-blank-space/
 ---
 
 ## Video lesson

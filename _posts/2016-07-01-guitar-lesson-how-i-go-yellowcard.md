@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for How I Go by Yellowcard"
 date: 2016-07-01
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/yellowcard-how-i-go/
 ---
 
 ## Video lesson

@@ -3,6 +3,10 @@ layout: post
 title:  "Guitar lesson for the 7 Years by Lukas Graham"
 date:   2016-06-26 01:22:22
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/lukas-graham-7-years/
 ---
 
 ## Video lesson

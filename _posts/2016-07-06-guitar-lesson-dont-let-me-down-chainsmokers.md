@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Don't Let Me Down by The Chainsmokers"
 date: 2016-07-07
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/chainsmokers-don-t-let-me-down/
 ---
 
 ## Video lesson

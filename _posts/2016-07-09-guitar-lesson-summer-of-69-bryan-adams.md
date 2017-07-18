@@ -3,6 +3,10 @@ layout: post
 title: "Guitar lesson for Summer of '69 by Bryan Adams"
 date: 2016-07-09
 categories: guitar music
+redirected: true
+sitemap: false
+redirect_to:
+  - http://playsongnotes.com/songs/bryan-adams-summer-of-69/
 ---
 
 ## Video Lesson
