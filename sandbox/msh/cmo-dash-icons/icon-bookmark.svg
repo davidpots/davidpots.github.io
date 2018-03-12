@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-bookmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon-bookmark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M36,0 L12,0 C10.34325,0 9,1.3425 9,3 L9,45 C9,46.213125 9.730875,47.308125 10.8519375,47.7710625 C11.223,47.925 11.613,48 11.9994375,48 C12.7801875,48 13.54725,47.6941875 14.121375,47.1208125 L24,37.2429375 L33.878625,47.1208125 C34.4525625,47.6941875 35.22,48 36.0005625,48 C36.387,48 36.7768125,47.925 37.1480625,47.7710625 C38.269125,47.308125 39,46.213125 39,45 L39,3 C39,1.3425 37.65675,0 36,0 Z M36,3 L36,45 L24,33 L12,45 L12,3 L36,3 Z" id="Fill-81" fill="#454545"></path>
+    </g>
+</svg>
