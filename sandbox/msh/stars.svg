@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="14px" viewBox="0 0 80 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Star-Copy-10" fill="#E8711B" points="8 11.6085145 3.05572809 14 4 8.93475242 0 5.34752416 5.52786405 4.60851449 8 0"></polygon>
+        <polygon id="Star-Copy-11" fill="#E8711B" points="24 11.6085145 19.0557281 14 20 8.93475242 16 5.34752416 21.527864 4.60851449 24 0"></polygon>
+        <polygon id="Star-Copy-12" fill="#E8711B" transform="translate(11.000000, 7.000000) scale(-1, 1) translate(-11.000000, -7.000000) " points="15 11.6085145 10.0557281 14 11 8.93475242 7 5.34752416 12.527864 4.60851449 15 0"></polygon>
+        <polygon id="Star-Copy-13" fill="#E8711B" transform="translate(28.000000, 7.000000) scale(-1, 1) translate(-28.000000, -7.000000) " points="32 11.6085145 27.0557281 14 28 8.93475242 24 5.34752416 29.527864 4.60851449 32 0"></polygon>
+        <polygon id="Star-Copy-14" fill="#E8711B" points="40 11.6085145 35.0557281 14 36 8.93475242 32 5.34752416 37.527864 4.60851449 40 0"></polygon>
+        <polygon id="Star-Copy-15" fill="#E8711B" transform="translate(44.000000, 7.000000) scale(-1, 1) translate(-44.000000, -7.000000) " points="48 11.6085145 43.0557281 14 44 8.93475242 40 5.34752416 45.527864 4.60851449 48 0"></polygon>
+        <polygon id="Star-Copy-16" fill="#E8711B" points="56 11.6085145 51.0557281 14 52 8.93475242 48 5.34752416 53.527864 4.60851449 56 0"></polygon>
+        <polygon id="Star-Copy-17" fill="#E8711B" transform="translate(60.000000, 7.000000) scale(-1, 1) translate(-60.000000, -7.000000) " points="64 11.6085145 59.0557281 14 60 8.93475242 56 5.34752416 61.527864 4.60851449 64 0"></polygon>
+        <path d="M72.5,11.651509 L67.8969332,14 L68.7921348,8.93475242 L65,5.34752416 L70.2406014,4.60851449 L72.4157303,0.33141036 L72.4157303,0 L72.5,0.16570518 L72.5842697,0 L72.5842697,0.33141036 L74.7593986,4.60851449 L80,5.34752416 L76.2078652,8.93475242 L77.1030668,14 L72.5,11.651509 Z" id="Combined-Shape" fill="#E8711B" opacity="0.219999999"></path>
+    </g>
+</svg>
