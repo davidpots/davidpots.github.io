@@ -1,0 +1,58 @@
+I"�<p>Here’s a quick post outlining how I forked one of my existing Heroku projects to create a separate staging server (where I could secretly push &amp; deploy changes while finalizing a big redesign). What follows is me simply following many of the steps I put together after reading these articles:</p>
+
+<ul>
+  <li><a href="http://blog.alexmaccaw.com/heroku-staging">http://blog.alexmaccaw.com/heroku-staging</a></li>
+  <li><a href="https://devcenter.heroku.com/articles/multiple-environments">https://devcenter.heroku.com/articles/multiple-environments</a></li>
+  <li><a href="https://devcenter.heroku.com/articles/fork-app">https://devcenter.heroku.com/articles/fork-app</a></li>
+</ul>
+
+<h3 id="help-i-need-a-staging-server">Help, I need a staging server!</h3>
+
+<p>For the last year I’ve been running <a href="http://www.songnotes.cc">my Songnotes project</a> on Heroku, quite happily in fact. But recently, I had a bit of a dilemma: I had a sizable redesign in mind, one that would gut most of the front-end code and probably take many, many hours to complete. I knew doing the redesign bit-by-bit on my existing Heroku production site would be bad, since things would require a bit of testing.</p>
+
+<p>I wondered: is there a way for me to keep my existing Heroku production app (which was getting a fair bit of daily traffic), while also creating a new Heroku staging app I could secretly test on? Could I have both of these, and selectively push/deploy to each during this redesign process? Thankfully, the answer is yes! Here’s how I did it.</p>
+
+<h3 id="fork-your-existing-heroku-app">Fork your existing Heroku app</h3>
+
+<p>After finding some helpful articles on the topic (linked above), I learned the first step was for me to fork my existing Heroku app. To browse your existing Heroku apps (by their proper name) from the command line, run:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku apps
+</code></pre></div></div>
+
+<p>…and they’ll all display. To fork my app named <code class="language-plaintext highlighter-rouge">songnotes</code> and create a new app called <code class="language-plaintext highlighter-rouge">songnotes-staging</code>, I ran the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku fork -a songnotes songnotes-staging
+</code></pre></div></div>
+
+<p>Easy enough. The new app can be viewed online immediately at <code class="language-plaintext highlighter-rouge">http://songnotes-staging.herokuapp.com</code>.</p>
+
+<h3 id="next-some-git-setup">Next, some Git setup</h3>
+
+<p>Next, we have to tell our project’s Git installation about the new Heroku app. I got the following URL (for the new app’s Heroku git repo) from Heroku.com, while browsing the settings for my new app. I added it to my <code class="language-plaintext highlighter-rouge">.git/config</code> by running this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add staging git@heroku.com:songnotes-staging.git
+</code></pre></div></div>
+
+<p>While we do have a new Heroku app created, we’ll likely want to switch away from our master Git branch and do our new work in its own, new branch. Given that my project’s codename was “Birthday”, I created a new git branch from master by running:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git co -b birthday
+</code></pre></div></div>
+
+<p>And after we make code changes we want to deploy to Heroku, we have to tell Heroku which app to push to with this code. Note the branchname specification at the end of the command: the first branch is telling git which local branch to push <em>from</em>, and the second paramater is which remote (Heroku) branch to push <em>to</em>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push staging birthday:master
+</code></pre></div></div>
+
+<p>So, the command above is deploying to my Heroku app <em>staging</em>, using changes from my local branch <em>birthday</em>, and pushing to the remote Heroku branch <em>master</em>.</p>
+
+<h3 id="staging-server-online">Staging server, online!</h3>
+
+<p>After the deploy, you can use the typical <code class="language-plaintext highlighter-rouge">heroku open</code> command to open the Heroku app in your browser, though you’ll need to tell Heroku which app to open:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku open --app songnotes-staging
+</code></pre></div></div>
+
+<p>Finally, keep in mind your staging app will be publicly accessible out of the gate. You may want to update robots.txt so your site isn’t scraped, disable Google Analytics, and possibly add a password so the public can’t easily access your in-progress work (if you don’t want them to).</p>
+
+<p>Otherwise, I hope this was helpful.</p>
+:ET

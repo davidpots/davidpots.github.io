@@ -1,0 +1,143 @@
+I"�+<p>This is a walkthrough of how I setup a fresh <a href="http://jekyllrb.com/">Jekyll</a> installation, add <a href="http://compass-style.org/">Compass</a> for SCSS/SASS, and then deploy it to <a href="http://pages.github.com/">Github Pages</a>. For me, this trifecta seems like tremendously valuable tool to have in the arsenal when it comes to rapid prototyping and simple site creation. I plan on using this platform for my own personal website + blog, but you could also use this for hosting micro-sites or any sort of basic prototype (mobile, etc) you have in mind.</p>
+
+<p>If this sounds interesting, I hope this will be of help to you. I document a few solutions to snags I ran into along the way – I hope this saves you some time. Good luck!</p>
+
+<h2 id="setting-up-jekyll">Setting up Jekyll</h2>
+
+<p>First, make sure you have the Jekyll gem.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll
+</code></pre></div></div>
+
+<p>Then, open up terminal and move into your project directory. Create a new Jekyll project like below (“pages3” is the illustrious name of the installation I’ll be creating):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new pages3
+</code></pre></div></div>
+
+<p>That was easy. Now, move into the <code class="language-plaintext highlighter-rouge">pages3</code> directory and boot ‘er up.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd pages3
+jekyll serve
+</code></pre></div></div>
+
+<p>Great, here you are. You can view your out-of-the-box site by pointing your browser to <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>. At this point, the app is ready to publish new blog posts and there is plenty of customization you can add… refer to the docs for more information there. But for this lesson, we’re going to move on to setting up Compass/SASS as well as hosting via Github Pages.</p>
+
+<h2 id="setting-up-compassscss">Setting up Compass/SCSS</h2>
+
+<p>First, make sure you have the Compass gem.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install compass
+</code></pre></div></div>
+
+<p>Then, you’ll want to create a Compass instance within your existing Jekyll app’s directory. From the Jekyll app’s directory, run this command from terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>compass create .
+</code></pre></div></div>
+
+<p>Next, a few tweaks you’ll need to make to the default Compass files and folders that were just created. Perform these steps:</p>
+
+<ol>
+  <li>Rename the <code class="language-plaintext highlighter-rouge">sass</code> folder to be <code class="language-plaintext highlighter-rouge">_sass</code></li>
+  <li>Delete the <code class="language-plaintext highlighter-rouge">stylesheets</code> folder that Compass created (for now we’ll use Jekyll’s default <code class="language-plaintext highlighter-rouge">css</code> folder for our CSS)</li>
+  <li>Move your Compass <code class="language-plaintext highlighter-rouge">config.rb</code> file into the <code class="language-plaintext highlighter-rouge">_sass</code> folder</li>
+  <li>Create a folder <code class="language-plaintext highlighter-rouge">_plugins</code> in your root Jekyll directory, and paste the contents of <a href="https://gist.github.com/davidpots/5853188">this gist</a> into a new file called <code class="language-plaintext highlighter-rouge">generator_scss.rb</code>. Make sure this file is created inside your new <code class="language-plaintext highlighter-rouge">plugins</code> directory.</li>
+</ol>
+
+<p>Now we need to open up the Compass <code class="language-plaintext highlighter-rouge">config.rb</code> document and make some tweaks. You’ll want to be sure everything is wired up correctly (i.e., so Compass knows where to find everything within the Jekyll ecosystem). Make your <code class="language-plaintext highlighter-rouge">_sass/config.rb</code> file look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>http_path = "/"
+sass_dir = "./"
+css_dir = "../css"
+images_dir = "../img"
+javascripts_dir = "../js"
+relative_assets = true
+</code></pre></div></div>
+
+<p>That’s it… Compass is now hooked up and ready. To make it take effect so we can see our new styles in action, we’ll need to do a few things.</p>
+
+<p>First, restart the server with a <code class="language-plaintext highlighter-rouge">-w</code> at the end. This will keep an eye on any SCSS changes you make and update the CSS on the fly.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve -w
+</code></pre></div></div>
+
+<p>Second, you’ll need to tell Jekyll to follow the commands of the specific stylesheets that are SCSS enabled. Here, we’ll open up <code class="language-plaintext highlighter-rouge">_layouts/default.html</code> and add this line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!-- SCSS, baby --&gt;
+&lt;link rel="stylesheet" href="/css/screen.css"&gt;
+</code></pre></div></div>
+
+<p>This will take any styles in your <code class="language-plaintext highlighter-rouge">_sass/screen.scss</code> file and make sure Jekyll sees the compiled CSS version that Compass creates. In my <code class="language-plaintext highlighter-rouge">_sass/screen.scss</code> file I’ll typically do something obvious such as <code class="language-plaintext highlighter-rouge">body { background: yellow; }</code> and make sure it works when the page loads.</p>
+
+<p>And if you refresh your page and view source (or make an obvious change in <code class="language-plaintext highlighter-rouge">screen.scss</code>, you’ll see it worked! Voila.</p>
+
+<h2 id="setting-up-github-pages">Setting up Github Pages</h2>
+
+<p>Next, I’ll show how to take your Jekyll site and have it hosted on Github Pages, which lets anyone visit it from their browser. For free. This is handy for many reasons (hosting smaller sites, prototype testing, testing on mobile, etc).</p>
+
+<h4 id="setup-a-git-repo">Setup a Git Repo</h4>
+
+<p>First, log in to github.com and create a new repo for your project. I’m going to use “pages3” to match my Jekyll app. With terminal pointed to your Jekyll project folder, setup git:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+git add .
+git commit -m "First commit"
+git remote add origin git@github.com:USERNAME/REPO_NAME.git
+git push -u origin master
+</code></pre></div></div>
+
+<p>Now, just like normal, your folder of content is saved to a repo on github. This is nothing new so far. But from here, you’ll setup the Pages thing.</p>
+
+<h4 id="add-a-gh-pages-branch">Add a ‘gh-pages’ branch</h4>
+
+<p>Next you must create a branch called <code class="language-plaintext highlighter-rouge">gh-pages</code> (it must be called exactly that – this is not arbitrary). You can create this branch like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch gh-pages
+</code></pre></div></div>
+
+<p>Lastly, push the contents of the gh-pages to github. You can do it from master (or any branch) like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin gh-pages
+</code></pre></div></div>
+
+<p>And voila, the content of that branch will be on github pages after a few (as many as 10 minutes).</p>
+
+<h2 id="having-a-jekyll-baseurl-problem">Having a Jekyll baseurl problem?</h2>
+
+<p>When I follow the steps above, I get this far and have a problem: my hosted Github Pages sites loads, but no CSS is being loaded (as determined by viewing source or the infamous Times New Roman). Also, when I click on links – I get a 404. So something is wrong. Lucky for you, I tracked the problem down (with the help of others who had this issue before me) and I’ll tell you the quick and easy fix.</p>
+
+<h4 id="tweak-your-jekyll-config">Tweak your Jekyll config</h4>
+
+<p>In your project’s <code class="language-plaintext highlighter-rouge">_config.yml</code> file (found at the root level of the project directory), open it up and add this line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>baseurl: /YOUR_PROJECT_NAME
+</code></pre></div></div>
+
+<p>For example, my project name is <code class="language-plaintext highlighter-rouge">pages3</code> so I add <code class="language-plaintext highlighter-rouge">baseurl: /pages3</code>. This will enable us to easily tell Jekyll to add this directory path to the beginning of all URLs in our site. Which we’ll handle next.</p>
+
+<h4 id="check-all-urls">Check all URLs</h4>
+
+<p>Next, you’ll need to go through your Jekyll app and prepend any URL with <code class="language-plaintext highlighter-rouge">{{ site.baseurl }}</code>. This might seem like a pain, but if it is a fresh Jekyll install there are really only a couple of these to worry about. Your changes will look like this, and they’re all (I’m pretty sure) in the <code class="language-plaintext highlighter-rouge">_layouts/default.html</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel="stylesheet" href="/css/screen.css"&gt;
+</code></pre></div></div>
+
+<p>becomes</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css"&gt;
+</code></pre></div></div>
+
+<p>…and so forth. Do this for your stylesheet <code class="language-plaintext highlighter-rouge">&lt;link&gt;</code> tags, as shown above, and also for any <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> tags you have.</p>
+
+<h4 id="re-serving-jekyll">Re-serving Jekyll</h4>
+
+<p>Finally: with the above steps done, you’ll need to relaunch Jekyll like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll serve --baseurl '' -w
+</code></pre></div></div>
+
+<p>You’ll need to add that <code class="language-plaintext highlighter-rouge">--baseurl ''</code> suffix every time, so that when you’re running the app locally the <code class="language-plaintext highlighter-rouge">baseurl</code> value is empty (which works locally). When your full static site is generated for Github Pages, the normal <code class="language-plaintext highlighter-rouge">baseurl</code> value we specified earlier will take effect.</p>
+
+<h2 id="all-done">All done!</h2>
+
+<p>And that’s it! A bit of a process, but really if you go through these steps once – and then repeat them with a new Jekyll installation + Github repo (which is how I learn best), it shouldn’t be too bad. Hopefully the gotcha’s I name + solve above save you some time.</p>
+:ET

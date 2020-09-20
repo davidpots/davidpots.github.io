@@ -1,0 +1,135 @@
+I"�<p>This tutorial will show you how to create a new record (e.g., a Song) and at the same time assign it to an existing record (e.g., an Artist). It is inspired via <a href="http://agilewarrior.wordpress.com/2011/09/30/how-to-add-a-drop-down-resource-to-an-existing-rails-model/">this article</a>. Note, one limitation - for now - is that you an only assign new songs to an existing artist.</p>
+
+<h3 id="1-setup-your-rails-app--database">1. Setup your Rails app &amp; database</h3>
+
+<p>Get things started by running these commands. This will create an app, change into that app’s directory, create the database, and start the Rails server.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails new sandbox4
+cd sandbox4
+rake db:create
+rails s
+</code></pre></div></div>
+
+<p>You can now visit the live app by going to <code class="language-plaintext highlighter-rouge">http://localhost:3000/</code> – which will return the default Rails index page. That’s fine for now.</p>
+
+<h3 id="2-setup-scaffolding-for-songs-and-artists">2. Setup Scaffolding for “Songs” and “Artists”</h3>
+
+<p>Like so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails generate scaffold Song title:string year:integer artist_id:integer
+rake db:migrate
+
+rails generate scaffold Artist name:string
+rake db:migrate
+</code></pre></div></div>
+
+<p>Alright. Onward.</p>
+
+<h3 id="3-setup-model-relationships-between-songs-and-artists">3. Setup Model Relationships between “Songs” and “Artists”</h3>
+
+<p>make <em>models/song.rb</em> look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Song &lt; ActiveRecord::Base
+  attr_accessible :artist_id, :title, :year
+  belongs_to :artist
+end
+</code></pre></div></div>
+
+<p>make <em>models/artist.rb</em> look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Artist &lt; ActiveRecord::Base
+  attr_accessible :name
+  has_many :songs
+end
+</code></pre></div></div>
+
+<p>At this point you can add Songs and Artists via <code class="language-plaintext highlighter-rouge">http://localhost:3000/songs</code> and <code class="language-plaintext highlighter-rouge">http://localhost:3000/arists</code>, respectfully. However, when adding a Song the “Aritst” field asks for a numeric value (which I assume matches to the artist_id?). This sucks, let’s change it.</p>
+
+<h3 id="4-prep-the-songs-controller">4. Prep the Songs Controller</h3>
+
+<p>In the songs controller, add this at the very top:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>before_filter :prepare_artists 
+</code></pre></div></div>
+
+<p>And add this at the very bottom:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># add the @artists = Artist.All to the before action so avail for all actions
+
+private
+
+def prepare_artists
+  @artists = Artist.all
+end
+</code></pre></div></div>
+
+<h3 id="5-change-the-songs-form-to-have-a-dropdown">5. Change the Songs form to have a dropdown</h3>
+
+<p>In order to have a dropdown menu replace the boring text field that requires us to enter an ID, do the following.</p>
+
+<p>Replace this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="field"&gt;
+  &lt;%= f.label :artist_id %&gt;&lt;br /&gt;
+  &lt;%= f.number_field :artist_id %&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>With this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="field"&gt;
+  &lt;%= f.label :artist %&gt;&lt;br /&gt;
+  &lt;%= f.collection_select(:artist_id, @artists, :id, :name, :include_blank =&gt; "Please select an artist...") %&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h3 id="6-tweak-aritstshow-to-show-all-songs-for-that-artist">6. Tweak aritst#show to show all songs for that artist</h3>
+
+<p>If we view an artist#show page, we should also see all their songs. Add this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;
+  &lt;b&gt;Songs:&lt;/b&gt;
+  &lt;% @artist.songs.each do |song| %&gt;
+    &lt;br /&gt;&lt;%= song.title %&gt;
+  &lt;% end %&gt;
+&lt;/p&gt;
+</code></pre></div></div>
+
+<h3 id="7-tweak-aritstshow-to-add-a-new-song-for-that-artist">7. Tweak aritst#show to add a new song for that artist</h3>
+
+<p>If we’re viewing an artist page, we should be able to add a new song for them. right? do it like this:</p>
+
+<p>First, add this to the show method in the artists controller:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@song = Song.new 
+</code></pre></div></div>
+
+<p>Second, in artist#show add this form somewhere:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;&lt;strong&gt;Add a new song:&lt;/strong&gt;&lt;/p&gt;
+&lt;%= form_for @song do |f| %&gt;
+  &lt;%= f.hidden_field :artist_id, :value =&gt; @artist.id %&gt;
+  &lt;%= f.label :title, 'Title' %&gt;: &lt;%= f.text_field :title %&gt;&lt;br /&gt;
+  &lt;%= f.label :year, 'Year' %&gt;: &lt;%= f.text_field :year %&gt;&lt;br /&gt;
+  &lt;%= f.submit 'Add Song' %&gt;
+&lt;% end %&gt;
+</code></pre></div></div>
+
+<h3 id="8-tweak-the-redirect-after-adding-a-new-song">8. Tweak the redirect after adding a new song</h3>
+
+<p>Because it sucks to be taken to the song#index after adding a song via artist#show.</p>
+
+<p>In the create method of the songs_controller, replace this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>format.html { redirect_to @song, notice: 'Song was successfully created.' }
+</code></pre></div></div>
+
+<p>With this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>format.html { redirect_to artist_url(@song.artist_id), notice: 'Song was successfully created.' }
+</code></pre></div></div>
+
+<h3 id="9-all-done">9. All done!</h3>
+
+<p>There you go. Some nice little tips, hopefully, that help get you on  your way.</p>
+:ET

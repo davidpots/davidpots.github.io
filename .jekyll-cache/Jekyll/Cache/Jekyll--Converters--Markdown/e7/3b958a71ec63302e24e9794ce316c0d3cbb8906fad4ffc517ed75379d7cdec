@@ -1,0 +1,66 @@
+I"�<p>This tutorial will show you how to add a new column to an existing table in your Rails project database. Why would you do this? As you build out a project, you may realize that one of your data models may need to be added to – which means a new column in that table. Here’s how to do this.</p>
+
+<p>In the example below, I’m assuming you have a Rails project up and running with a table already created. In this case, I want to add a column for “RSS Feed”, in which I’ll enter a URL (string) value for each table entry.</p>
+
+<p>Finally, note that these are merely my personal notes on learning about this. For official reference (that will stay up to date, as this post may not) refer to the <a href="http://guides.rubyonrails.org/migrations.html">official Rails guide</a>.</p>
+
+<h3 id="1-generate-the-migration">1. Generate the Migration</h3>
+
+<p>First things first. After you know what type of column you wish to add, load up terminal and change into your project’s directory. Type this command to generate a new migration. This command includes the name of the migration we’re creating, as well as the column name we wish to create (and the type of variable/value that column will accept). In this case the new column will be called <em>url_rss</em> and will be of type <em>string</em>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails generate migration add_url_rss_to_shows url_rss:string 
+</code></pre></div></div>
+
+<h3 id="2-confirm-the-migration-file-looks-okay">2. Confirm the migration file looks okay</h3>
+
+<p>In your app’s <em>db/migrate</em> folder you’ll see a new file at the end of the list (with a timestamp matching when it was created). Before you do a <code class="language-plaintext highlighter-rouge">rake db:migrate</code> you’ll want to make sure the migration file is giving the proper instructions to the database. In this case, it looks okay:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class AddUrlRssToShows &lt; ActiveRecord::Migration
+  def change
+    add_column :shows, :url_rss, :string
+  end
+end
+</code></pre></div></div>
+
+<h3 id="3-migrate-the-database">3. Migrate the database</h3>
+
+<p>By running the command below. This will run the migration, following the instructions specified in any yet-to-be-run migrations. Which in this case will add a column “url_rss” which is type “string” into the table “shows”.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rake db:migrate
+</code></pre></div></div>
+
+<h3 id="4-update-the-models-attr_accessible-values">4. Update the model’s attr_accessible values</h3>
+
+<p>In my case, I need to go into shows.rb and update the “attr_accessible” line to include the new column name. At the moment I’m not able to explain exactly why this is necessary – but without it, you can’t edit/create Shows with the new property we just created. My Show.rb file now looks like this, with the only change being the “:url_rss” added to the attr_accessible line.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Show &lt; ActiveRecord::Base
+  attr_accessible :description, :name, :url_web, :url_itunes, :url_rss, :network_id
+  belongs_to :network
+  has_many :episodes
+end
+</code></pre></div></div>
+
+<h3 id="5-update-the-_form-and-show-views-for-the-affected-model">5. Update the “_form” and “show” views for the affected model</h3>
+
+<p>Now that the table column is added, we need to both (1) enable users to enter data for this column per each Show, and (2) display what they entered whenever a user is viewing a record. Two sub-steps here.</p>
+
+<p>First, update the “_form” view (which is used when editing or creating a Show). I now have a new label and input field which accepts the string for “url_rss”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="field"&gt;
+  &lt;%= f.label :url_rss, "URL: RSS Feed" %&gt;&lt;br /&gt;
+  &lt;%= f.text_field :url_rss %&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>Second, update the “show” view (which is used to display a Show’s details). I now need to output the url_rss value so users can benefit from this item.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;p&gt;
+  &lt;b&gt;RSS URL:&lt;/b&gt;&lt;br /&gt;
+  &lt;%= @show.url_rss.empty? ? "--" : @show.url_rss %&gt;
+&lt;/p&gt;
+</code></pre></div></div>
+
+<h3 id="6-all-done">6. All Done!</h3>
+
+<p>You’re finished. Now your table has a new column, and you’re able to add values to this column via the app’s web view (or via terminal).</p>
+:ET

@@ -1,0 +1,48 @@
+I"(<p>Here’s a quick tutorial on setting up a simple homepage to the Rails project you just created. This is a great early exercise to get familiar with if you’re new to Rails and want to go through the motions a few times with wiring things together.</p>
+
+<p>This tutorial assumes you have your development environment setup: Rails, rubygems, etc. If you don’t, ask a friend or refer to <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec-development_tools">this guide</a>.</p>
+
+<h3 id="1-create-a-rails-app">1. Create a rails app</h3>
+
+<p>First, you have to create a new rails app. In terminal, move to the directory where you want to keep your projects and run these commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails new app_name
+cd app_name
+rails s
+</code></pre></div></div>
+
+<p>Voila, you have created a vanilla Rails app and should have it running locally. When you load your app in your browser by loading <code class="language-plaintext highlighter-rouge">http://localhost:3000</code>, you’ll notice the default stock Rails homepage. You’ll want to change this. Here’s how.</p>
+
+<h3 id="2-delete-the-default-homepage-file">2. Delete the default homepage file</h3>
+
+<p>By default, the file <code class="language-plaintext highlighter-rouge">index.html</code> in the <code class="language-plaintext highlighter-rouge">public</code> directory is the out-of-the-box homepage. Delete this file (via text editor, command line, Finder, etc).</p>
+
+<h3 id="3-add-your-new-homepage-file">3. Add your new homepage file</h3>
+
+<p>Next you’ll need to create a directory and file for your new homepage. We’re going to create a <em>pages</em> directory that is perfect for the homepage, and can also be used for pages such as <em>about</em>, <em>contact</em>, etc.</p>
+
+<ol>
+  <li>Add a directory <code class="language-plaintext highlighter-rouge">pages</code> into your <code class="language-plaintext highlighter-rouge">app/views</code> directory</li>
+  <li>Add a file <code class="language-plaintext highlighter-rouge">home.html.erb</code> into your <code class="language-plaintext highlighter-rouge">app/views/pages</code> directory</li>
+  <li>Give <code class="language-plaintext highlighter-rouge">home.html.erb</code> some basic text (e.g., “Hello World”) so you can identify it when it loads</li>
+</ol>
+
+<h3 id="4-wire-up-the-pages-controller">4. Wire up the Pages controller</h3>
+
+<p>Next, add a file <code class="language-plaintext highlighter-rouge">pages_controller.rb</code> into your <code class="language-plaintext highlighter-rouge">app/controllers</code> directory. Open up this file and fill it with this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class PagesController &lt; ApplicationController
+  def home
+  end
+end
+</code></pre></div></div>
+
+<h3 id="5-tweak-the-routes-file">5. Tweak the routes file</h3>
+
+<p>Finally, open up the routes file and add this line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root to: 'pages#home'
+</code></pre></div></div>
+
+<p>And that’s it! Now if you load <code class="language-plaintext highlighter-rouge">http://localhost:3000</code> your new homepage will show up. Have at it.</p>
+:ET

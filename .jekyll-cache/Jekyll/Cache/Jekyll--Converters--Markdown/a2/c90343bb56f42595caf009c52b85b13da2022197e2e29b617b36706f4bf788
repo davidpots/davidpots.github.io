@@ -1,0 +1,80 @@
+I"/<h2 id="notes">Notes</h2>
+
+<p>Had this tune in my head and wanted to learn it… so I did! Note, the tabs below are in the key of G – which is quite simply a decision made because the chord shapes work out well with the various riffs. I couldn’t even tell you which key the actual song is in (I believe it may be B, but don’t quote me on that).</p>
+
+<p>In the tabs below, I mapped out each measure to precisely four generalized strums. Obviously, you’ll want to get into a groove and adopt a strumming pattern that works for you – which may translate into more or less than these 4 precise strums. The key with the ukulele approach to this song (in my opinion) is to capture the accent on the correct string – usually one of the top two strings – to match the melody at that part of the song.</p>
+
+<h2 id="audio-of-me-playing">Audio of me playing</h2>
+
+<p>For context while using the tabs below, here’s a clip of me playing. Even in my delicate whispering, I butchered the chorus lyrics. Forgive me.</p>
+
+<audio controls="">
+  <source src="/audio/20160209-ukulele-cheap-trick-surrender.m4a" type="audio/mpeg" />
+Your browser does not support the audio element.
+</audio>
+
+<p>For easy reference, you can jump to these points in the recording to match the tabs below:</p>
+
+<ul>
+  <li><a href="#t=0m04s">00:04</a> Verse, part 1</li>
+  <li><a href="#t=0m19s">00:19</a> Verse, part 2</li>
+  <li><a href="#t=0m34s">00:34</a> Chorus</li>
+  <li><a href="#t=0m54s">00:54</a> Post-chorus</li>
+</ul>
+
+<h2 id="verse-part-1">Verse, part 1</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"Mama told me, yeah she told me..."
+
+---5--5--3--2------0--0--2--0-----3--3--3--3----(2)--
+---3--3--3--3------2--2--2--2-----3--3--2--0-----3---    x 2
+---2--2--2--2------2--2--2--2-----0--0--0--0-----2---
+---0---------------2--2-----2-----0--0-----------0---
+   G               D              C              G
+</code></pre></div></div>
+
+<h2 id="verse-part-2">Verse, part 2</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"Just the other day I heard..."
+
+---3--3--3--3------0--0--0--0------------0-----0--2--2--2---
+---2--3--3--3------2--3--3--3------3--3--3--3--3--3--3--3---
+---0--0--0--0------2--2--2--2------2--2--2--2--2--2--2--2---
+---0--0--0--0------2--2--2--2------0--0---------------------
+   C               D               G
+
+---3--3--3--3------0--0--0--0------2----
+---2--3--3--3------2--3--3--3------3----  stay on normal G for 8 counts
+---0--0--0--0------2--2--2--2------2----
+---0--0--0--0------2--2--2--2------0----
+   C               D               G
+</code></pre></div></div>
+
+<h2 id="chorus">Chorus</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"Mommy's alright..."
+
+--(2)------------(0)-------------0--0--0--0-----3--3--3--3----
+---2--3--3--3-----2--3--3--3-----2--3--3--3-----2--0--0--0----
+---2--2--2--2-----4--4--4--4-----2--2--2--2-----0--0--0--0----
+---0--0--0--0-----0--0--0--0-----2--2--2--2-----0--0--0--0----
+   G              Em             D              C
+
+"Surrender..."
+
+--(2)---------------0--2--2--2-----0--0--0--0-----3--3--3--3----
+---2--3--3--3-------3--3--3--3-----2--3--3--3-----2--0--0--0----
+---2--2--2--2-------4--4--4--4-----2--2--2--2-----0--0--0--0----  stay on C for a bit, then to post-chorus
+---0--0--0--0-------0--------------2--2--2--2-----0--0--0--0----
+   G                Em             D              C
+</code></pre></div></div>
+
+<h2 id="post-chorus">Post-Chorus</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---5--5--5--5------5--5--5--5---
+---3--3--3--3------5--5--5--5---  repeat
+---2--2--2--2------6--6--6--6---
+---0--0--0--0------0--0--0--0--- 
+   G               D
+</code></pre></div></div>
+:ET

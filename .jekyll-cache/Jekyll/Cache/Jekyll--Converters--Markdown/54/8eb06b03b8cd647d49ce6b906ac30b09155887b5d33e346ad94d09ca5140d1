@@ -1,0 +1,56 @@
+I"n
+<h3 id="sets-up-static-heroku-app-with-password-protection-via-php-buildpack-and-htaccess">Sets Up Static Heroku App with password protection via PHP Buildpack and htaccess</h3>
+
+<p>Ever have a quick, static HTML site you want to host on Heroku? Well, you can – and quite easily too.</p>
+
+<p>Using Heroku Buildpacks, you can:</p>
+
+<ul>
+  <li>Create your project directory and project files.</li>
+  <li>Create your Git repo as per normal.</li>
+  <li>
+    <p>Setup Heroku, PHP Buildpack, and .htaccess protection.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>heroku create --remote
+heroku config:set BUILDPACK_URL="https://github.com/digitalpulp/heroku-buildpack-php.git"
+touch index.php
+heroku config:set ACCESSFILENAME=.htaccess
+touch .htaccess-staging
+    # Fill it with this, minus this comment
+    AuthUserFile /app/www/.htpasswd
+    AuthType Basic
+    AuthName "Restricted Access"
+    Require valid-user
+htpasswd -bc .htpasswd &lt;username&gt; &lt;password&gt;
+git add .
+git commit -m "Initial commit! Sets up app and links it to Heroku."
+git push heroku
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="update-october-2015">UPDATE (October 2015)</h3>
+
+<p>Trying to do this again in October 2015, I learned the instructions above didn’t work any longer. Using them as a starting point, I did the following – which ultimately worked. Still TBD is figuring out which of the things below did the trick. Also, I need to make sure I’m not neglecting to include important steps in the new notes below. Will do that all in time.</p>
+
+<h4 id="prob-not-necessary--but-i-did-all-this-i-would-skip-next-time-when-testing-it-out">Prob not necessary – but I did all this. I would skip next time when testing it out.</h4>
+<p>https://donatstudios.com/PHP-in-OS-X-Yosemite</p>
+
+<h4 id="set-the-new-buildpack">Set the new buildpack</h4>
+<p>https://github.com/heroku/heroku-buildpack-php</p>
+
+<h3 id="remove-www-from-the-htaccess-file">Remove WWW from the htaccess file</h3>
+<p>Using this as a guide, I eventually removed the <code class="language-plaintext highlighter-rouge">www</code> from the .htaccess directory (https://gist.github.com/bbrewer97202/3316425). That made it work.</p>
+
+<h3 id="make-the-indexphp-redirect-to-indexhtml">Make the index.php redirect to index.html</h3>
+<p>I made the file look  like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?php
+/* Redirect browser */
+header("Location: /index.html");
+
+/* Make sure that code below does not get executed when we redirect. */
+exit;
+?&gt;
+</code></pre></div></div>
+:ET

@@ -1,0 +1,92 @@
+I"<p>Okay here we go. Time to learn about the Rails <code class="language-plaintext highlighter-rouge">has_many :through</code> association. Below is a walkthrough I created based on my early efforts to get a grasp of this concept… for a more thorough explanation, check out <a href="http://guides.rubyonrails.org/association_basics.html">the official Rails guide</a> or <a href="http://blog.teamtreehouse.com/what-is-a-has_many-through-association-in-ruby-on-rails-treehouse-quick-tip">Treehouse’s intro</a>.</p>
+
+<h3 id="1-create-your-app">1. Create your app</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails new sb8
+cd sb8
+</code></pre></div></div>
+
+<h3 id="2-generate-scaffolding">2. Generate scaffolding</h3>
+
+<p>We’ll need a model for Physicians, Patients, and Appointments. Create them as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails generate scaffold Physician name:string
+rails generate scaffold Patient name:string
+rails generate scaffold Appointment physician_id:integer patient_id:integer appointment_date:datetime
+</code></pre></div></div>
+
+<p>Finally, migrate the database.asdasdasd</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rake db:migrate
+</code></pre></div></div>
+
+<h3 id="3-setup-the-model-associations">3. Setup the model associations</h3>
+
+<p>Make your model/appointment.rb file look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Appointment &lt; ActiveRecord::Base
+  attr_accessible :appointment_date, :patient_id, :physician_id
+  belongs_to :physician
+  belongs_to :patient
+end
+</code></pre></div></div>
+
+<p>Make your model/physician.rb file look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Physician &lt; ActiveRecord::Base
+  attr_accessible :name
+  has_many :appointments
+  has_many :patients, :through =&gt; :appointments
+end
+</code></pre></div></div>
+
+<p>Make your model/patient.rb file look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Patient &lt; ActiveRecord::Base
+  attr_accessible :name
+  has_many :appointments
+  has_many :physicians, :through =&gt; :appointments
+end
+</code></pre></div></div>
+
+<h3 id="4-create-some-records">4. Create some records</h3>
+
+<p>Now, you can go to the URLs below and create records for each of the models. Create some Physicians and some Patients first. For the Appointments, simply enter the ID number of the respective Physicians and Patients. The URLs are:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>localhost:3000/patients
+localhost:3000/physicians
+localhost:3000/appointment
+</code></pre></div></div>
+
+<h3 id="5-view-the-associations-via-console">5. View the associations via console</h3>
+
+<p>Once you do this, you can view the associations via console. First go into console by typing:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rails c
+</code></pre></div></div>
+
+<p>Now, if you set a Patient into a variable like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>p = Patient.find(1)
+</code></pre></div></div>
+
+<p>…You can then view all of that Patient’s appointments or physicians by typing this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>p.appointments
+p.physicians
+</code></pre></div></div>
+
+<p>The commands above let me view a patient’s appointments, and a patient’s physicians. But wait, there’s more – I can take this a step further. Suppose I want to view a patient’s physician’s appointments, OR a patient’s appointment’s physician. You can do these as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Set a patient into the variable 'p'
+p = Patient.find(1)
+
+# Show the patient's physician for a certain appointment
+p.appointments.find(1).physician
+
+# Show the appointments belonging to one of the patient's physicians
+p.physicians.find(1).appointments
+</code></pre></div></div>
+
+<p>The main point here is when models are associated, you can use jump up/down the chain in a single line of code – and Ruby is able to understand what you’re looking for.</p>
+:ET
