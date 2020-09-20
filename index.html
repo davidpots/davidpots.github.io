@@ -8,13 +8,13 @@ title: David Potsiadlo // Product Design and Development
     <div class="col mtxxxl">
       <p class="center"><img width="120" src="/images/avatar.png" /></p>
       <h1 class="center m-h2">David Potsiadlo</h1>
-      <p class="center h3 m-h4">Code-slinging product designer who <a href="http://playsongnotes.com">teaches guitar</a> and <a href="http://davidpots.com/podcasts">loves podcasts</a>.</p>
+      <p class="center h3 m-h4">Designing web products at GoDaddy. I like to play <a href="http://playsongnotes.com">guitar</a> and enjoy listening to t<a href="http://davidpots.com/podcasts">podcasts</a>.</p>
     </div>
   </div>
 </div>
 
 <div class="container">
-  <div class="row">
+  <!-- <div class="row">
     <div class="col">
       <h3 class="mtxxxl h2">About</h3>
       <p>Since 2005, I've worked professionally to apply my UX/UI design and front-end development skills toward non-profit, enterprise, education, and ecommerce web products. I currently work as a Principal Product Designer for GoDaddy in Austin, TX.</p>
@@ -36,17 +36,17 @@ title: David Potsiadlo // Product Design and Development
         <li><a href="http://www.twitter.com/davidpots">Twitter</a></li>
       </ul>
     </div>
-  </div>
+  </div> -->
   <div class="row">
     <div class="col">
-      <p>Or, you can send an email to <a href="mailto:davidpots@gmail.com">davidpots@gmail.com</a>.</p>
+      <p>Need something? Email at <a href="mailto:davidpots@gmail.com">davidpots@gmail.com</a>.</p>
     </div>
   </div>
   <div class="row">
     <div class="col">
 
 
-      <h3 class="mtxxxl h2">Featured projects</h3>
+      <h3 class="mtxxxl h2">The main thing I work on:</h3>
       {% assign featured_projects = (site.projects | where: "category" , "featured") %}
       {% for project in featured_projects %}
       <div class="mbxl">
@@ -57,7 +57,7 @@ title: David Potsiadlo // Product Design and Development
       </div>
       {% endfor %}
 
-      <h3 class="mtxxxl h2">Other projects</h3>
+      <h3 class="mtxxxl h2">Other stuff I've made:</h3>
       {% assign reg_projects = site.projects | where:'category','other' %}
       {% for project in reg_projects %}
       <div class="mbxl">

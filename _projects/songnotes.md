@@ -1,9 +1,9 @@
 ---
 date:         2014-09-01 00:00:00
 title: Song Notes
-subtitle: Curated digital songbook & video lessons
-description: I designed & developed Song Notes to help me share my growing collection of curated guitar tabs, chords, lyrics, and video lessons with aspiring musicians across the world. To do this, I built a Rails-powered CMS that feeds my hand-crafted song metadata snippets into a carefully designed framework that was built to support the structure of any song. The content for each song entry is hand-crafted by me personally, ensuring a high-quality, consistent, and media-rich experience that works for today's web-native audience.
+subtitle: Video guitar lessons & PDF chord sheet library
+description: Since 2013 I've been sharing songs I learn on guitar through both video lessons and illustrative PDF chord sheets. I publish new videos & PDFs each week: 300+ lessons, 200k+ YouTube subscribers, and 3k+ supporters on Patreon.
 website: http://playsongnotes.com
-cta: Learn to play a song
+cta: Browse my videos & PDF library &raquo;
 category:     featured
 ---
